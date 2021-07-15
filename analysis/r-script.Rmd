@@ -42,10 +42,14 @@ library(readr)        # for the csv
 ```{r, message=FALSE, warning=FALSE}
 df <- read_csv("../data/Percepciones sobre ciencia y ciencia abierta.csv")
 options(width=10000)
-print(df, n=1000)
+options(tibble.width = Inf)
+options(tibble.print_max = 10000, tibble.print_min = 10000)
+print(df, n=10000)
 ```
 
+```{r}
 
+```
 
 
 

@@ -3,7 +3,7 @@
 
 # # Exploratory analysis of Perceptions about Science and Open Science
 # 
-# This analysis revolves around the undergraduate thesis carried out by Franco Sebastián Benítez, tutored by Débora Burin and Lucas Cuenya, from the Psychology Department of the University of Buenos Aires.
+# This analysis revolves around the undergraduate thesis carried out by Franco Sebastián Benítez, under the supervision of Débora Burin and Lucas Cuenya, from the School of Psychology of the University of Buenos Aires.
 # 
 # As set in our preregistration, we are checking the following aspects:
 # 
@@ -25,7 +25,7 @@
 
 # ## Loading the necessary libraries
 
-# In[39]:
+# In[1]:
 
 
 import pandas as pd                  # data wrangling
@@ -34,19 +34,19 @@ import matplotlib.pyplot as plt      # plotting
 
 # ## Loading the dataset
 
-# In[40]:
+# In[2]:
 
 
 df = pd.read_csv("../data/Percepciones sobre ciencia y ciencia abierta.csv")
 
 
-# In[41]:
+# In[3]:
 
 
 df
 
 
-# In[42]:
+# In[4]:
 
 
 df.shape
@@ -56,7 +56,7 @@ df.shape
 
 # Now let's rename the columns to make it easier to manipulate.
 
-# In[55]:
+# In[5]:
 
 
 column_names = {"Timestamp": "timestamp",
@@ -88,19 +88,19 @@ df.timestamp = pd.to_datetime(df.timestamp)
 
 # ### 1) Check for exclusion criteria in the demographic data, and in the completion rate.
 
-# In[44]:
+# In[6]:
 
 
 df["project"].value_counts()
 
 
-# In[45]:
+# In[7]:
 
 
 df["journal"].value_counts()
 
 
-# In[88]:
+# In[8]:
 
 
 exclusion_criteria = df[["project", "journal"]]
@@ -112,21 +112,21 @@ for a, b in exclusion_criteria.itertuples(index=False):
         print(f"Participant n° {i} will be excluded")
 
 
-# In[47]:
+# In[9]:
 
 
 df[["project", 
     "journal"]].iloc[26]
 
 
-# In[48]:
+# In[10]:
 
 
 df[["project", 
     "journal"]].iloc[20]
 
 
-# In[49]:
+# In[11]:
 
 
 df.drop([20, 26], axis=0)
@@ -138,7 +138,7 @@ df.drop([20, 26], axis=0)
 
 # #### 2.1) Education
 
-# In[50]:
+# In[12]:
 
 
 plt.figure(figsize=(15,10))
@@ -171,7 +171,7 @@ plt.xticks(rotation=0)
 
 # #### 2.2) Research area
 
-# In[51]:
+# In[13]:
 
 
 df["area"].value_counts()
@@ -179,7 +179,7 @@ df["area"].value_counts()
 
 # #### 2. 3) Position 
 
-# In[111]:
+# In[14]:
 
 
 plt.figure(figsize=(20,15))
@@ -191,7 +191,7 @@ ax.set_ylabel("Frecuency", fontsize=20)
 
 # #### 2.4) Methodology
 
-# In[114]:
+# In[15]:
 
 
 plt.figure(figsize=(20,15))
@@ -200,7 +200,7 @@ df["methodology"].value_counts().plot.pie(autopct='%1.0f%%', fontsize=20)
 
 # #### 2.5) Age
 
-# In[123]:
+# In[16]:
 
 
 fig = plt.figure(figsize=(20,15))
@@ -215,7 +215,7 @@ plt.ylabel('Frecuency', fontsize = 20)
 
 # #### 3.1) Belief
 
-# In[125]:
+# In[17]:
 
 
 df["belief"].value_counts().plot.pie(figsize = (20,15), autopct = "%1.0f%%", fontsize = 20)
