@@ -1,10 +1,6 @@
 ---
 title: "Exploratory analysis of Perceptions about Science and Open Science"
-output:
-  github_document: default
-  html_document: default
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_format = "all") })
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -35,16 +31,18 @@ As set in our preregistration, we are checking the following aspects:
 ```{r, message=FALSE}
 library(dplyr)        # data wrangling
 library(ggplot2)      # plotting
-library(readr)        # for the csv
+library(readr)        # csv
+library(DT)           # interactive table
 ```
 
 ## Loading the dataset
 ```{r, message=FALSE, warning=FALSE}
 df <- read_csv("../data/Percepciones sobre ciencia y ciencia abierta.csv")
-options(width=10000)
-options(tibble.width = Inf)
-options(tibble.print_max = 10000, tibble.print_min = 10000)
-print(df, n=10000)
+df %>% 
+  datatable(options = list(
+  autoWidth = TRUE,
+  columnDefs = list(list(width = '200px', targets = c(1, 3)))
+))
 ```
 
 ```{r}
