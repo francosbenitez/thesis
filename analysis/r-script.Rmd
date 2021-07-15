@@ -1,0 +1,55 @@
+---
+title: "Exploratory analysis of Perceptions about Science and Open Science"
+output:
+  github_document: default
+  html_document: default
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_format = "all") })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This analysis revolves around the undergraduate thesis carried out by Franco Sebastián Benítez, tutored by Débora Burin and Lucas Cuenya, from the Psychology Department of the University of Buenos Aires.
+
+As set in our preregistration, we are checking the following aspects:
+
+1) Check for exclusion criteria in the demographic data, and in the completion rate.
+
+2) Describe the sample’s demographic characteristics.
+
+3) Analyse the total percentage of “yes” responses to belief in crisis. Analyse as a function of career stage and methodological approach.
+
+4) Qualitative analysis of open field response to belief in crisis.
+
+5) Percentage of agreement with each, and combined, statements about replication crisis, p-value, publication bias. Analyse as a function of career stage and methodological approach.
+
+6) Percentage of agreement with each, and combined, statements about perceived barriers. Analyse as a function of career stage and methodological approach.
+
+7) Percentage of agreement with each, and combined, statements about attitudes against adopting open science practices. Analyse as a function of career stage and methodological approach.
+
+8) Qualitative analysis of open field response to attitudes about barriers against adopting open science practices.
+
+## Loading the neccesary libraries
+```{r, message=FALSE}
+library(dplyr)        # data wrangling
+library(ggplot2)      # plotting
+library(readr)        # for the csv
+```
+
+## Loading the dataset
+```{r, message=FALSE, warning=FALSE}
+df <- read_csv("../data/Percepciones sobre ciencia y ciencia abierta.csv")
+options(width=10000)
+print(df, n=1000)
+```
+
+
+
+
+
+
+
+
+
