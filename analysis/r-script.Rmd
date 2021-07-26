@@ -37,7 +37,7 @@ library(rmarkdown)    # table
 
 ## Loading the dataset
 ```{r, message=FALSE, warning=FALSE}
-df <- read_csv("../data/Percepciones sobre ciencia y ciencia abierta.csv")
+df <- read_csv("../data/Percepciones sobre ciencia y ciencia abierta_cleaning.csv")
 paged_table(df)
 ```
 
