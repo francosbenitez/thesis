@@ -13100,7 +13100,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[398]:</div>
+<div class="prompt input_prompt">In&nbsp;[489]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>                  <span class="c1"># data wrangling</span>
@@ -13123,7 +13123,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[399]:</div>
+<div class="prompt input_prompt">In&nbsp;[490]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/Percepciones sobre ciencia y ciencia abierta.csv&quot;</span><span class="p">)</span>
@@ -13136,7 +13136,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[400]:</div>
+<div class="prompt input_prompt">In&nbsp;[491]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span>
@@ -13152,7 +13152,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[400]:</div>
+    <div class="prompt output_prompt">Out[491]:</div>
 
 
 
@@ -13477,7 +13477,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[401]:</div>
+<div class="prompt input_prompt">In&nbsp;[492]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
@@ -13493,7 +13493,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[401]:</div>
+    <div class="prompt output_prompt">Out[492]:</div>
 
 
 
@@ -13526,7 +13526,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[402]:</div>
+<div class="prompt input_prompt">In&nbsp;[493]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">column_names</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Timestamp&quot;</span><span class="p">:</span> <span class="s2">&quot;timestamp&quot;</span><span class="p">,</span>
@@ -13540,23 +13540,23 @@ div#notebook {
                 <span class="s2">&quot;¿Qué tipo de metodología suele predominar en sus estudios?&quot;</span><span class="p">:</span> <span class="s2">&quot;methodology&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;¿Cree que hay una crisis en la ciencia?&quot;</span><span class="p">:</span> <span class="s2">&quot;belief&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;Si su respuesta a la pregunta anterior ha sido “Sí”, señale por qué cree que hay una crisis en la ciencia&quot;</span><span class="p">:</span> <span class="s2">&quot;belief_comments&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas]&quot;</span><span class="p">:</span> <span class="s2">&quot;significance&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos]&quot;</span><span class="p">:</span> <span class="s2">&quot;journal_significance&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos]&quot;</span><span class="p">:</span> <span class="s2">&quot;significance_trust&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables]&quot;</span><span class="p">:</span> <span class="s2">&quot;null_significance&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo]&quot;</span><span class="p">:</span> <span class="s2">&quot;pvalue&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Un resultado estadísticamente significativo es un resultado importante]&quot;</span><span class="p">:</span> <span class="s2">&quot;significance_importance&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica]&quot;</span><span class="p">:</span> <span class="s2">&quot;pvalue_importance&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [El valor de p = .001 confirma que el tamaño del efecto ha sido grande]&quot;</span><span class="p">:</span> <span class="s2">&quot;effect_size&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática]&quot;</span><span class="p">:</span> <span class="s2">&quot;replication&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [La realización de estudios de replicación es necesaria para el avance de la ciencia]&quot;</span><span class="p">:</span> <span class="s2">&quot;replication_importance&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios]&quot;</span><span class="p">:</span> <span class="s2">&quot;replication_necessity&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original]&quot;</span><span class="p">:</span> <span class="s2">&quot;replication_sense&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original]&quot;</span><span class="p">:</span> <span class="s2">&quot;significance_replication&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [El principal objetivo de las revistas científicas es publicar hallazgos novedosos]&quot;</span><span class="p">:</span> <span class="s2">&quot;journal_target&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones]&quot;</span><span class="p">:</span> <span class="s2">&quot;novelty&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados]&quot;</span><span class="p">:</span> <span class="s2">&quot;science_errors&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;journal_review&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas]&quot;</span><span class="p">:</span> <span class="s2">&quot;Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos]&quot;</span><span class="p">:</span> <span class="s2">&quot;A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos]&quot;</span><span class="p">:</span> <span class="s2">&quot;Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables]&quot;</span><span class="p">:</span> <span class="s2">&quot;Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo]&quot;</span><span class="p">:</span> <span class="s2">&quot;Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Un resultado estadísticamente significativo es un resultado importante]&quot;</span><span class="p">:</span> <span class="s2">&quot;Un resultado estadísticamente significativo es un resultado importante&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica]&quot;</span><span class="p">:</span> <span class="s2">&quot;El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [El valor de p = .001 confirma que el tamaño del efecto ha sido grande]&quot;</span><span class="p">:</span> <span class="s2">&quot;El valor de p = .001 confirma que el tamaño del efecto ha sido grande&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática]&quot;</span><span class="p">:</span> <span class="s2">&quot;Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [La realización de estudios de replicación es necesaria para el avance de la ciencia]&quot;</span><span class="p">:</span> <span class="s2">&quot;La realización de estudios de replicación es necesaria para el avance de la ciencia&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios]&quot;</span><span class="p">:</span> <span class="s2">&quot;Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original]&quot;</span><span class="p">:</span> <span class="s2">&quot;Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original]&quot;</span><span class="p">:</span> <span class="s2">&quot;No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [El principal objetivo de las revistas científicas es publicar hallazgos novedosos]&quot;</span><span class="p">:</span> <span class="s2">&quot;El principal objetivo de las revistas científicas es publicar hallazgos novedosos&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones]&quot;</span><span class="p">:</span> <span class="s2">&quot;La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados]&quot;</span><span class="p">:</span> <span class="s2">&quot;Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos&quot;</span><span class="p">,</span>
                 <span class="s2">&quot; [Replicar un estudio previo]&quot;</span><span class="p">:</span> <span class="s2">&quot;previous_replication_1&quot;</span><span class="p">,</span>
                 <span class="s2">&quot; [Pre-registrar un estudio antes de iniciar la recolección de datos]&quot;</span><span class="p">:</span> <span class="s2">&quot;previous_preregistration_1&quot;</span><span class="p">,</span>
                 <span class="s2">&quot; [Poner datos recolectados a disposición mediante plataformas o repositorios públicos.]&quot;</span><span class="p">:</span> <span class="s2">&quot;public_data_1&quot;</span><span class="p">,</span>
@@ -13605,7 +13605,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[403]:</div>
+<div class="prompt input_prompt">In&nbsp;[494]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -13621,65 +13621,65 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[403]:</div>
+    <div class="prompt output_prompt">Out[494]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>timestamp                     datetime64[ns, pytz.FixedOffset(180)]
-consent                                                      object
-age                                                            int8
-education                                                    object
-area                                                         object
-project                                                      object
-journal                                                      object
-position                                                     object
-methodology                                                  object
-belief                                                       object
-belief_comments                                              object
-significance                                                 object
-journal_significance                                         object
-significance_trust                                           object
-null_significance                                            object
-pvalue                                                       object
-significance_importance                                      object
-pvalue_importance                                            object
-effect_size                                                  object
-replication                                                  object
-replication_importance                                       object
-replication_necessity                                        object
-replication_sense                                            object
-significance_replication                                     object
-journal_target                                               object
-novelty                                                      object
-science_errors                                               object
-journal_review                                               object
-previous_replication_1                                       object
-previous_preregistration_1                                   object
-public_data_1                                                object
-shared_scripts_1                                             object
-public_materials_1                                           object
-report_1                                                     object
-preprint_1                                                   object
-open_review_usage_1                                          object
-open_review_publication_1                                    object
-adapt_1                                                      object
-open_projects_1                                              object
-previous_replication_2                                       object
-previous_preregistration_2                                   object
-public_data_2                                                object
-shared_scripts_2                                             object
-public_materials_2                                           object
-report_2                                                     object
-preprint_2                                                   object
-open_review_usage_2                                          object
-open_review_publication_2                                    object
-adapt_2                                                      object
-open_projects_2                                              object
-barriers_1                                                   object
-barriers_2                                                   object
-comments                                                     object
+<pre>timestamp                                                                                                                                                                     datetime64[ns, pytz.FixedOffset(180)]
+consent                                                                                                                                                                                                      object
+age                                                                                                                                                                                                            int8
+education                                                                                                                                                                                                    object
+area                                                                                                                                                                                                         object
+project                                                                                                                                                                                                      object
+journal                                                                                                                                                                                                      object
+position                                                                                                                                                                                                     object
+methodology                                                                                                                                                                                                  object
+belief                                                                                                                                                                                                       object
+belief_comments                                                                                                                                                                                              object
+Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas                                                                                object
+A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos                                                                                                    object
+Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos                                                                                 object
+Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables                                                                                        object
+Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo                                                    object
+Un resultado estadísticamente significativo es un resultado importante                                                                                                                                       object
+El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica                                                                                                                          object
+El valor de p = .001 confirma que el tamaño del efecto ha sido grande                                                                                                                                        object
+Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática                                              object
+La realización de estudios de replicación es necesaria para el avance de la ciencia                                                                                                                          object
+Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios                                        object
+Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original                                                                object
+No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original                                                                                   object
+El principal objetivo de las revistas científicas es publicar hallazgos novedosos                                                                                                                            object
+La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones                                                                                 object
+Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados                                                               object
+Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos                                   object
+previous_replication_1                                                                                                                                                                                       object
+previous_preregistration_1                                                                                                                                                                                   object
+public_data_1                                                                                                                                                                                                object
+shared_scripts_1                                                                                                                                                                                             object
+public_materials_1                                                                                                                                                                                           object
+report_1                                                                                                                                                                                                     object
+preprint_1                                                                                                                                                                                                   object
+open_review_usage_1                                                                                                                                                                                          object
+open_review_publication_1                                                                                                                                                                                    object
+adapt_1                                                                                                                                                                                                      object
+open_projects_1                                                                                                                                                                                              object
+previous_replication_2                                                                                                                                                                                       object
+previous_preregistration_2                                                                                                                                                                                   object
+public_data_2                                                                                                                                                                                                object
+shared_scripts_2                                                                                                                                                                                             object
+public_materials_2                                                                                                                                                                                           object
+report_2                                                                                                                                                                                                     object
+preprint_2                                                                                                                                                                                                   object
+open_review_usage_2                                                                                                                                                                                          object
+open_review_publication_2                                                                                                                                                                                    object
+adapt_2                                                                                                                                                                                                      object
+open_projects_2                                                                                                                                                                                              object
+barriers_1                                                                                                                                                                                                   object
+barriers_2                                                                                                                                                                                                   object
+comments                                                                                                                                                                                                     object
 dtype: object</pre>
 </div>
 
@@ -13699,7 +13699,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[404]:</div>
+<div class="prompt input_prompt">In&nbsp;[495]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span> 
@@ -13715,7 +13715,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[404]:</div>
+    <div class="prompt output_prompt">Out[495]:</div>
 
 
 
@@ -13723,19 +13723,31 @@ dtype: object</pre>
 <div class="output_text output_subarea output_execute_result">
 <pre>Index([&#39;timestamp&#39;, &#39;consent&#39;, &#39;age&#39;, &#39;education&#39;, &#39;area&#39;, &#39;project&#39;,
        &#39;journal&#39;, &#39;position&#39;, &#39;methodology&#39;, &#39;belief&#39;, &#39;belief_comments&#39;,
-       &#39;significance&#39;, &#39;journal_significance&#39;, &#39;significance_trust&#39;,
-       &#39;null_significance&#39;, &#39;pvalue&#39;, &#39;significance_importance&#39;,
-       &#39;pvalue_importance&#39;, &#39;effect_size&#39;, &#39;replication&#39;,
-       &#39;replication_importance&#39;, &#39;replication_necessity&#39;, &#39;replication_sense&#39;,
-       &#39;significance_replication&#39;, &#39;journal_target&#39;, &#39;novelty&#39;,
-       &#39;science_errors&#39;, &#39;journal_review&#39;, &#39;previous_replication_1&#39;,
-       &#39;previous_preregistration_1&#39;, &#39;public_data_1&#39;, &#39;shared_scripts_1&#39;,
-       &#39;public_materials_1&#39;, &#39;report_1&#39;, &#39;preprint_1&#39;, &#39;open_review_usage_1&#39;,
-       &#39;open_review_publication_1&#39;, &#39;adapt_1&#39;, &#39;open_projects_1&#39;,
-       &#39;previous_replication_2&#39;, &#39;previous_preregistration_2&#39;, &#39;public_data_2&#39;,
-       &#39;shared_scripts_2&#39;, &#39;public_materials_2&#39;, &#39;report_2&#39;, &#39;preprint_2&#39;,
-       &#39;open_review_usage_2&#39;, &#39;open_review_publication_2&#39;, &#39;adapt_2&#39;,
-       &#39;open_projects_2&#39;, &#39;barriers_1&#39;, &#39;barriers_2&#39;, &#39;comments&#39;],
+       &#39;Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas&#39;,
+       &#39;A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos&#39;,
+       &#39;Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos&#39;,
+       &#39;Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables&#39;,
+       &#39;Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo&#39;,
+       &#39;Un resultado estadísticamente significativo es un resultado importante&#39;,
+       &#39;El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica&#39;,
+       &#39;El valor de p = .001 confirma que el tamaño del efecto ha sido grande&#39;,
+       &#39;Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática&#39;,
+       &#39;La realización de estudios de replicación es necesaria para el avance de la ciencia&#39;,
+       &#39;Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios&#39;,
+       &#39;Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original&#39;,
+       &#39;No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original&#39;,
+       &#39;El principal objetivo de las revistas científicas es publicar hallazgos novedosos&#39;,
+       &#39;La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones&#39;,
+       &#39;Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados&#39;,
+       &#39;Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos&#39;,
+       &#39;previous_replication_1&#39;, &#39;previous_preregistration_1&#39;, &#39;public_data_1&#39;,
+       &#39;shared_scripts_1&#39;, &#39;public_materials_1&#39;, &#39;report_1&#39;, &#39;preprint_1&#39;,
+       &#39;open_review_usage_1&#39;, &#39;open_review_publication_1&#39;, &#39;adapt_1&#39;,
+       &#39;open_projects_1&#39;, &#39;previous_replication_2&#39;,
+       &#39;previous_preregistration_2&#39;, &#39;public_data_2&#39;, &#39;shared_scripts_2&#39;,
+       &#39;public_materials_2&#39;, &#39;report_2&#39;, &#39;preprint_2&#39;, &#39;open_review_usage_2&#39;,
+       &#39;open_review_publication_2&#39;, &#39;adapt_2&#39;, &#39;open_projects_2&#39;, &#39;barriers_1&#39;,
+       &#39;barriers_2&#39;, &#39;comments&#39;],
       dtype=&#39;object&#39;)</pre>
 </div>
 
@@ -13761,7 +13773,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[405]:</div>
+<div class="prompt input_prompt">In&nbsp;[496]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">exclusion_criteria</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s2">&quot;project&quot;</span><span class="p">,</span> <span class="s2">&quot;journal&quot;</span><span class="p">]]</span>
@@ -13802,7 +13814,7 @@ Participant n° 80 will be excluded
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[405]:</div>
+    <div class="prompt output_prompt">Out[496]:</div>
 
 
 
@@ -14149,7 +14161,7 @@ Participant n° 80 will be excluded
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[406]:</div>
+<div class="prompt input_prompt">In&nbsp;[497]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;education&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14210,7 +14222,7 @@ Participant n° 80 will be excluded
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[407]:</div>
+<div class="prompt input_prompt">In&nbsp;[498]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;area&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -14226,7 +14238,7 @@ Participant n° 80 will be excluded
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[407]:</div>
+    <div class="prompt output_prompt">Out[498]:</div>
 
 
 
@@ -14269,7 +14281,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[408]:</div>
+<div class="prompt input_prompt">In&nbsp;[499]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;position&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14330,7 +14342,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[443]:</div>
+<div class="prompt input_prompt">In&nbsp;[500]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
@@ -14347,13 +14359,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[443]:</div>
+    <div class="prompt output_prompt">Out[500]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e584d8e0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e97f9fd0&gt;</pre>
 </div>
 
 </div>
@@ -14394,7 +14406,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[410]:</div>
+<div class="prompt input_prompt">In&nbsp;[501]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">])</span>
@@ -14410,13 +14422,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[410]:</div>
+    <div class="prompt output_prompt">Out[501]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e81854f0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9999820&gt;</pre>
 </div>
 
 </div>
@@ -14464,7 +14476,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[411]:</div>
+<div class="prompt input_prompt">In&nbsp;[502]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Do you believe that there is a crisis in science?&#39;</span><span class="p">)</span>
@@ -14481,13 +14493,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[411]:</div>
+    <div class="prompt output_prompt">Out[502]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e8348e80&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9a14490&gt;</pre>
 </div>
 
 </div>
@@ -14520,7 +14532,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[412]:</div>
+<div class="prompt input_prompt">In&nbsp;[503]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14537,13 +14549,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[412]:</div>
+    <div class="prompt output_prompt">Out[503]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e834eb50&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9a3cfa0&gt;</pre>
 </div>
 
 </div>
@@ -14584,7 +14596,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[413]:</div>
+<div class="prompt input_prompt">In&nbsp;[504]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;methodology&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;belief&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
@@ -14600,13 +14612,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[413]:</div>
+    <div class="prompt output_prompt">Out[504]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252ea2e3c70&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9ab0760&gt;</pre>
 </div>
 
 </div>
@@ -14647,7 +14659,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[414]:</div>
+<div class="prompt input_prompt">In&nbsp;[505]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;belief&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
@@ -14663,13 +14675,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[414]:</div>
+    <div class="prompt output_prompt">Out[505]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e830ec10&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9b33730&gt;</pre>
 </div>
 
 </div>
@@ -14710,7 +14722,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[416]:</div>
+<div class="prompt input_prompt">In&nbsp;[506]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">##### see how many comments use the word &quot;replicability&quot;</span>
@@ -14730,7 +14742,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[453]:</div>
+<div class="prompt input_prompt">In&nbsp;[507]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">make_table</span><span class="p">(</span><span class="n">column</span><span class="p">):</span>
@@ -14740,24 +14752,233 @@ Name: area, Length: 82, dtype: int64</pre>
     <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
     <span class="k">return</span> <span class="n">df</span>
 
-<span class="n">l</span> <span class="o">=</span> <span class="p">[]</span>    
-<span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">11</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">28</span><span class="p">):</span>
-        <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">make_table</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">]))</span> <span class="c1"># convert every column to a table </span>
+<span class="k">def</span> <span class="nf">tables_by_columns</span><span class="p">(</span><span class="n">index_col_1</span><span class="p">,</span> <span class="n">index_col_2</span><span class="p">):</span>
+    <span class="n">l</span> <span class="o">=</span> <span class="p">[]</span>    
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;=</span> <span class="n">index_col_1</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">index_col_2</span><span class="p">):</span>
+            <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">make_table</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">]))</span>
+    <span class="k">return</span> <span class="n">l</span>
+            
+<span class="k">def</span> <span class="nf">combinate_tables</span><span class="p">(</span><span class="n">l</span><span class="p">):</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> 
+    <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;index&#39;</span><span class="p">:</span> <span class="s1">&#39;Measures&#39;</span><span class="p">})</span>
+    <span class="k">return</span> <span class="n">df</span>
 
-<span class="n">table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># combine all columns</span>
-<span class="n">table</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">convert_to_int</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="n">df</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;Int64&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df</span>
+    
+<span class="n">science</span> <span class="o">=</span> <span class="n">convert_to_int</span><span class="p">(</span><span class="n">combinate_tables</span><span class="p">(</span><span class="n">tables_by_columns</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">28</span><span class="p">)))</span> <span class="c1"># the variables 11 until 28 are assesments about statements concerning science  </span>
+<span class="n">science</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/science.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="c1"># this table is exported to be ploted with the HH package in R</span>
 
-<span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">table</span><span class="p">):</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
-        <span class="n">table</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span> <span class="o">=</span> <span class="n">table</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;Int64&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-
-<span class="n">table</span> <span class="o">=</span> <span class="n">table</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;index&#39;</span><span class="p">:</span> <span class="s1">&#39;Measures&#39;</span><span class="p">})</span>
-
-<span class="n">table</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/Percepciones sobre ciencia y ciencia abierta_cleaning.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="c1"># export table to plot in R</span>
+<span class="n">science</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[507]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Measures</th>
+      <th>Bastante de acuerdo</th>
+      <th>Algo de acuerdo</th>
+      <th>Muy de acuerdo</th>
+      <th>No sé</th>
+      <th>Nada de acuerdo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Gran parte de los investigadores solamente pub...</td>
+      <td>32</td>
+      <td>28</td>
+      <td>24</td>
+      <td>6</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>A las revistas científicas no les interesa pub...</td>
+      <td>37</td>
+      <td>18</td>
+      <td>27</td>
+      <td>3</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Cuando leo un artículo tengo mayor confianza e...</td>
+      <td>19</td>
+      <td>18</td>
+      <td>10</td>
+      <td>7</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Que un resultado no fuera estadísticamente sig...</td>
+      <td>1</td>
+      <td>21</td>
+      <td>2</td>
+      <td>6</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Una conclusión científica (por ejemplo, si un ...</td>
+      <td>21</td>
+      <td>31</td>
+      <td>9</td>
+      <td>6</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Un resultado estadísticamente significativo es...</td>
+      <td>31</td>
+      <td>34</td>
+      <td>8</td>
+      <td>6</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>El valor de p &lt; .05 confirma que el hallazgo s...</td>
+      <td>11</td>
+      <td>36</td>
+      <td>4</td>
+      <td>13</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>El valor de p = .001 confirma que el tamaño de...</td>
+      <td>12</td>
+      <td>21</td>
+      <td>8</td>
+      <td>22</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Cuando los resultados de diferentes investigad...</td>
+      <td>30</td>
+      <td>21</td>
+      <td>36</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>La realización de estudios de replicación es n...</td>
+      <td>17</td>
+      <td>22</td>
+      <td>49</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Si los resultados sobre una determinada temáti...</td>
+      <td>10</td>
+      <td>37</td>
+      <td>2</td>
+      <td>5</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Los estudios de replicación solamente tienen s...</td>
+      <td>2</td>
+      <td>16</td>
+      <td>0</td>
+      <td>18</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>No es necesario replicar un estudio cuando ya ...</td>
+      <td>2</td>
+      <td>10</td>
+      <td>0</td>
+      <td>17</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>El principal objetivo de las revistas científi...</td>
+      <td>26</td>
+      <td>27</td>
+      <td>17</td>
+      <td>2</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>La ciencia avanza más con estudios que plantea...</td>
+      <td>10</td>
+      <td>30</td>
+      <td>7</td>
+      <td>4</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Creo que, en general, los errores que se puede...</td>
+      <td>9</td>
+      <td>30</td>
+      <td>1</td>
+      <td>7</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Las tareas de revisión y corrección de los man...</td>
+      <td>18</td>
+      <td>41</td>
+      <td>4</td>
+      <td>5</td>
+      <td>26</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 

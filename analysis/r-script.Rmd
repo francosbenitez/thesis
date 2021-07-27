@@ -40,7 +40,7 @@ library(HH)           # likert
 
 ## Loading the dataset
 ```{r, message=FALSE, warning=FALSE}
-df <- read_csv("../data/Percepciones sobre ciencia y ciencia abierta_cleaning.csv")
+df <- read_csv("../data/science.csv")
 paged_table(df)
 ```
 ```{r science, out.width="100%", fig.height=15, fig.width=25}
