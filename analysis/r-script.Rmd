@@ -4,7 +4,9 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(dev = "png",
+                      fig.path = "../images/",
+                      dpi = 300)
 ```
 
 This analysis revolves around the undergraduate thesis carried out by Franco Sebastián Benítez, tutored by Débora Burin and Lucas Cuenya, from the Psychology Department of the University of Buenos Aires.
@@ -41,49 +43,47 @@ library(HH)           # likert
 df <- read_csv("../data/Percepciones sobre ciencia y ciencia abierta_cleaning.csv")
 paged_table(df)
 ```
+```{r science, out.width="100%", fig.height=15, fig.width=25}
+origNames = colnames(df)
+myPanelFunc <- function(...){
+  panel.likert(...)
+  vals <- list(...)
+  DF <- data.frame(x=vals$x, y=vals$y, groups=vals$groups)
+  grps <- as.character(DF$groups)
+  for(i in 1:length(origNames)){
+    grps <- sub(paste0('^',origNames[i]),i,grps)
+  }
+  DF <- DF[order(DF$y,grps),]
+  DF$correctX <- ave(DF$x,DF$y,FUN=function(x){
+    x[x < 0] <- rev(cumsum(rev(x[x < 0]))) - x[x < 0]/2
+    x[x > 0] <- cumsum(x[x > 0]) - x[x > 0]/2
+    return(x)
+  })
+  subs <- sub(' Positive$','',DF$groups)
+  collapse <- subs[-1] == subs[-length(subs)] & DF$y[-1] == DF$y[-length(DF$y)]
+  DF$abs <- abs(DF$x)
+  DF$abs[c(collapse,FALSE)] <- DF$abs[c(collapse,FALSE)] + DF$abs[c(FALSE,collapse)]
+  DF$correctX[c(collapse,FALSE)] <- 0
+  DF <- DF[c(TRUE,!collapse),]
+  DF$perc <- round(ave(DF$abs,DF$y,FUN=function(x){x/sum(x) * 100}), 0)
+  DF$perc <- paste0(DF$perc,'%')
+  DF$perc[DF$perc == "0%"] <- ""
+  panel.text(x=DF$correctX, y=DF$y, label=DF$perc, cex=1)
+}
 
-```{r}
-significance <- data.frame(table(df$significance))
-new_df <- as.data.frame(t(significance))
-colnames(new_df) <- unlist(new_df["Var1",])
-new_df <- new_df[!row.names(new_df)=='Var1',]
-rownames(new_df) <- c("1")
-Measure <- c("significance")
-new_df <-cbind(Measure, new_df)
 
-new_df$"Algo de acuerdo" <- as.integer(new_df$"Algo de acuerdo")
-new_df$"Bastante de acuerdo" <- as.integer(new_df$"Bastante de acuerdo")
-new_df$"Muy de acuerdo" <- as.integer(new_df$"Muy de acuerdo")
-new_df$"Nada de acuerdo" <- as.integer(new_df$"Nada de acuerdo")
-new_df$"No sé" <- as.integer(new_df$"No sé")
-
-new_df
-
-
-```
-```{r}
-plot.likert(new_df, 
-as.percent=TRUE, 
-main = "Graph title",
-positive.order = T,
-ylab = "Question",    
-key.border.white=F,
-rightAxis=F, col = c("#FF7F00", "#FFBF80", "#C1E0F4", "#82C0E9")   
-)
-```
-```{r}
-likert(Measure ~ .,
-       data=new_df,
-       ylab=NULL,
+likert(Measures ~ .,
+       data=df,
        ReferenceZero=3,
        as.percent=TRUE,
        positive.order=TRUE,
-       main=list("Resident Survey Satisfaction Survey",
-                 x=unit(.55, "npc")),
-       sub=list("Satisfaction Rating", x=unit(.57, "npc")),
-       strip=FALSE,
-       par.strip.text=list(cex=.7))
-
+       main=list("Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia",
+                 x=unit(.50, "npc")),
+       rightAxis=F,
+       key.border.white=F,
+       panel=myPanelFunc,
+       auto.key=list(cex=1.2),
+       scales = list(y = list(cex = 1.2)))
 
 ```
 
