@@ -43,8 +43,6 @@ paged_table(df)
 ```
 
 ```{r}
-
-dimnames(table(df$significance))
 significance <- data.frame(table(df$significance))
 new_df <- as.data.frame(t(significance))
 colnames(new_df) <- unlist(new_df["Var1",])
@@ -52,16 +50,16 @@ new_df <- new_df[!row.names(new_df)=='Var1',]
 rownames(new_df) <- c("1")
 Measure <- c("significance")
 new_df <-cbind(Measure, new_df)
+
 new_df$"Algo de acuerdo" <- as.integer(new_df$"Algo de acuerdo")
 new_df$"Bastante de acuerdo" <- as.integer(new_df$"Bastante de acuerdo")
 new_df$"Muy de acuerdo" <- as.integer(new_df$"Muy de acuerdo")
 new_df$"Nada de acuerdo" <- as.integer(new_df$"Nada de acuerdo")
 new_df$"No sé" <- as.integer(new_df$"No sé")
 
-t(data.frame(table(df$journal_significance)))
-
-
 new_df
+
+
 ```
 ```{r}
 plot.likert(new_df, 
