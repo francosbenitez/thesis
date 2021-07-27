@@ -13100,7 +13100,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[489]:</div>
+<div class="prompt input_prompt">In&nbsp;[518]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>                  <span class="c1"># data wrangling</span>
@@ -13123,7 +13123,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[490]:</div>
+<div class="prompt input_prompt">In&nbsp;[519]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/Percepciones sobre ciencia y ciencia abierta.csv&quot;</span><span class="p">)</span>
@@ -13136,7 +13136,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[491]:</div>
+<div class="prompt input_prompt">In&nbsp;[520]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span>
@@ -13152,7 +13152,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[491]:</div>
+    <div class="prompt output_prompt">Out[520]:</div>
 
 
 
@@ -13477,7 +13477,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[492]:</div>
+<div class="prompt input_prompt">In&nbsp;[521]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
@@ -13493,7 +13493,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[492]:</div>
+    <div class="prompt output_prompt">Out[521]:</div>
 
 
 
@@ -13526,7 +13526,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[493]:</div>
+<div class="prompt input_prompt">In&nbsp;[522]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">column_names</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Timestamp&quot;</span><span class="p">:</span> <span class="s2">&quot;timestamp&quot;</span><span class="p">,</span>
@@ -13557,28 +13557,28 @@ div#notebook {
                 <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones]&quot;</span><span class="p">:</span> <span class="s2">&quot;La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados]&quot;</span><span class="p">:</span> <span class="s2">&quot;Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia [Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Replicar un estudio previo]&quot;</span><span class="p">:</span> <span class="s2">&quot;previous_replication_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Pre-registrar un estudio antes de iniciar la recolección de datos]&quot;</span><span class="p">:</span> <span class="s2">&quot;previous_preregistration_1&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Replicar un estudio previo]&quot;</span><span class="p">:</span> <span class="s2">&quot;Replicar un estudio previo (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Pre-registrar un estudio antes de iniciar la recolección de datos]&quot;</span><span class="p">:</span> <span class="s2">&quot;Pre-registrar un estudio antes de iniciar la recolección de datos (1)&quot;</span><span class="p">,</span>
                 <span class="s2">&quot; [Poner datos recolectados a disposición mediante plataformas o repositorios públicos.]&quot;</span><span class="p">:</span> <span class="s2">&quot;public_data_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;shared_scripts_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;public_materials_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio]&quot;</span><span class="p">:</span> <span class="s2">&quot;report_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Compartir una pre-impresión (pre-print) publicándola en un repositorio público o semi-público]&quot;</span><span class="p">:</span> <span class="s2">&quot;preprint_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Usar revisión por pares abierta]&quot;</span><span class="p">:</span> <span class="s2">&quot;open_review_usage_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Publicar en revistas de acceso abierto]&quot;</span><span class="p">:</span> <span class="s2">&quot;open_review_publication_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Adaptar un test psicométrico]&quot;</span><span class="p">:</span> <span class="s2">&quot;adapt_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Participar en proyectos abiertos y colaborativos a gran escala]&quot;</span><span class="p">:</span> <span class="s2">&quot;open_projects_1&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Replicar un estudio previo].1&quot;</span><span class="p">:</span> <span class="s2">&quot;previous_replication_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Pre-registrar un estudio antes de iniciar la recolección de datos].1&quot;</span><span class="p">:</span> <span class="s2">&quot;previous_preregistration_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Poner datos recolectados a disposición mediante plataformas o repositorios públicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;public_data_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos].1&quot;</span><span class="p">:</span> <span class="s2">&quot;shared_scripts_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos].1&quot;</span><span class="p">:</span> <span class="s2">&quot;public_materials_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio].1&quot;</span><span class="p">:</span> <span class="s2">&quot;report_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza]&quot;</span><span class="p">:</span> <span class="s2">&quot;preprint_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Usar revisión por partes abierta]&quot;</span><span class="p">:</span> <span class="s2">&quot;open_review_usage_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Publicar en revistas de acceso abierto].1&quot;</span><span class="p">:</span> <span class="s2">&quot;open_review_publication_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Adaptar un test psicométrico].1&quot;</span><span class="p">:</span> <span class="s2">&quot;adapt_2&quot;</span><span class="p">,</span>
-                <span class="s2">&quot; [Participar en proyectos abiertos y colaborativos a gran escala].1&quot;</span><span class="p">:</span> <span class="s2">&quot;open_projects_2&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio]&quot;</span><span class="p">:</span> <span class="s2">&quot;Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Compartir una pre-impresión (pre-print) publicándola en un repositorio público o semi-público]&quot;</span><span class="p">:</span> <span class="s2">&quot;Compartir una pre-impresión (pre-print) publicándola en un repositorio público o semi-público (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Usar revisión por pares abierta]&quot;</span><span class="p">:</span> <span class="s2">&quot;Usar revisión por pares abierta (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Publicar en revistas de acceso abierto]&quot;</span><span class="p">:</span> <span class="s2">&quot;Publicar en revistas de acceso abierto (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Adaptar un test psicométrico]&quot;</span><span class="p">:</span> <span class="s2">&quot;Adaptar un test psicométrico (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Participar en proyectos abiertos y colaborativos a gran escala]&quot;</span><span class="p">:</span> <span class="s2">&quot;Participar en proyectos abiertos y colaborativos a gran escala (1)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Replicar un estudio previo].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Replicar un estudio previo (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Pre-registrar un estudio antes de iniciar la recolección de datos].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Pre-registrar un estudio antes de iniciar la recolección de datos (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Poner datos recolectados a disposición mediante plataformas o repositorios públicos]&quot;</span><span class="p">:</span> <span class="s2">&quot;Poner datos recolectados a disposición mediante plataformas o repositorios públicos (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza]&quot;</span><span class="p">:</span> <span class="s2">&quot;Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Usar revisión por partes abierta]&quot;</span><span class="p">:</span> <span class="s2">&quot;Usar revisión por partes abierta (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Publicar en revistas de acceso abierto].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Publicar en revistas de acceso abierto (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Adaptar un test psicométrico].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Adaptar un test psicométrico (2)&quot;</span><span class="p">,</span>
+                <span class="s2">&quot; [Participar en proyectos abiertos y colaborativos a gran escala].1&quot;</span><span class="p">:</span> <span class="s2">&quot;Participar en proyectos abiertos y colaborativos a gran escala (2)&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;¿Cuáles le parecen que son las mayores barreras para la aceptación y puesta en práctica de prácticas de ciencia abierta en su campo y/o lugar de trabajo?&quot;</span><span class="p">:</span> <span class="s2">&quot;barriers_1&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;Si aplica, por favor describa brevemente qué barreras ha experimentado para incorporar o mantener prácticas de ciencia abierta&quot;</span><span class="p">:</span> <span class="s2">&quot;barriers_2&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;Por último, si posee alguna idea o comentario respecto a esta encuesta o al tema que aborda, por favor escribalo brevemente a continuación &quot;</span><span class="p">:</span> <span class="s2">&quot;comments&quot;</span>
@@ -13605,7 +13605,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[494]:</div>
+<div class="prompt input_prompt">In&nbsp;[523]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -13621,7 +13621,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[494]:</div>
+    <div class="prompt output_prompt">Out[523]:</div>
 
 
 
@@ -13655,28 +13655,28 @@ El principal objetivo de las revistas científicas es publicar hallazgos novedos
 La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones                                                                                 object
 Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados                                                               object
 Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos                                   object
-previous_replication_1                                                                                                                                                                                       object
-previous_preregistration_1                                                                                                                                                                                   object
+Replicar un estudio previo (1)                                                                                                                                                                               object
+Pre-registrar un estudio antes de iniciar la recolección de datos (1)                                                                                                                                        object
 public_data_1                                                                                                                                                                                                object
-shared_scripts_1                                                                                                                                                                                             object
-public_materials_1                                                                                                                                                                                           object
-report_1                                                                                                                                                                                                     object
-preprint_1                                                                                                                                                                                                   object
-open_review_usage_1                                                                                                                                                                                          object
-open_review_publication_1                                                                                                                                                                                    object
-adapt_1                                                                                                                                                                                                      object
-open_projects_1                                                                                                                                                                                              object
-previous_replication_2                                                                                                                                                                                       object
-previous_preregistration_2                                                                                                                                                                                   object
-public_data_2                                                                                                                                                                                                object
-shared_scripts_2                                                                                                                                                                                             object
-public_materials_2                                                                                                                                                                                           object
-report_2                                                                                                                                                                                                     object
-preprint_2                                                                                                                                                                                                   object
-open_review_usage_2                                                                                                                                                                                          object
-open_review_publication_2                                                                                                                                                                                    object
-adapt_2                                                                                                                                                                                                      object
-open_projects_2                                                                                                                                                                                              object
+Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (1)                                                                                                      object
+Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (1)                                                                                    object
+Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (1)                                                                                                 object
+Compartir una pre-impresión (pre-print) publicándola en un repositorio público o semi-público (1)                                                                                                            object
+Usar revisión por pares abierta (1)                                                                                                                                                                          object
+Publicar en revistas de acceso abierto (1)                                                                                                                                                                   object
+Adaptar un test psicométrico (1)                                                                                                                                                                             object
+Participar en proyectos abiertos y colaborativos a gran escala (1)                                                                                                                                           object
+Replicar un estudio previo (2)                                                                                                                                                                               object
+Pre-registrar un estudio antes de iniciar la recolección de datos (2)                                                                                                                                        object
+Poner datos recolectados a disposición mediante plataformas o repositorios públicos (2)                                                                                                                      object
+Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (2)                                                                                                      object
+Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (2)                                                                                    object
+Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (2)                                                                                                 object
+Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza (2)                                                                                                                      object
+Usar revisión por partes abierta (2)                                                                                                                                                                         object
+Publicar en revistas de acceso abierto (2)                                                                                                                                                                   object
+Adaptar un test psicométrico (2)                                                                                                                                                                             object
+Participar en proyectos abiertos y colaborativos a gran escala (2)                                                                                                                                           object
 barriers_1                                                                                                                                                                                                   object
 barriers_2                                                                                                                                                                                                   object
 comments                                                                                                                                                                                                     object
@@ -13699,7 +13699,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[495]:</div>
+<div class="prompt input_prompt">In&nbsp;[524]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span> 
@@ -13715,7 +13715,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[495]:</div>
+    <div class="prompt output_prompt">Out[524]:</div>
 
 
 
@@ -13740,14 +13740,29 @@ dtype: object</pre>
        &#39;La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones&#39;,
        &#39;Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados&#39;,
        &#39;Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos&#39;,
-       &#39;previous_replication_1&#39;, &#39;previous_preregistration_1&#39;, &#39;public_data_1&#39;,
-       &#39;shared_scripts_1&#39;, &#39;public_materials_1&#39;, &#39;report_1&#39;, &#39;preprint_1&#39;,
-       &#39;open_review_usage_1&#39;, &#39;open_review_publication_1&#39;, &#39;adapt_1&#39;,
-       &#39;open_projects_1&#39;, &#39;previous_replication_2&#39;,
-       &#39;previous_preregistration_2&#39;, &#39;public_data_2&#39;, &#39;shared_scripts_2&#39;,
-       &#39;public_materials_2&#39;, &#39;report_2&#39;, &#39;preprint_2&#39;, &#39;open_review_usage_2&#39;,
-       &#39;open_review_publication_2&#39;, &#39;adapt_2&#39;, &#39;open_projects_2&#39;, &#39;barriers_1&#39;,
-       &#39;barriers_2&#39;, &#39;comments&#39;],
+       &#39;Replicar un estudio previo (1)&#39;,
+       &#39;Pre-registrar un estudio antes de iniciar la recolección de datos (1)&#39;,
+       &#39;public_data_1&#39;,
+       &#39;Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (1)&#39;,
+       &#39;Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (1)&#39;,
+       &#39;Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (1)&#39;,
+       &#39;Compartir una pre-impresión (pre-print) publicándola en un repositorio público o semi-público (1)&#39;,
+       &#39;Usar revisión por pares abierta (1)&#39;,
+       &#39;Publicar en revistas de acceso abierto (1)&#39;,
+       &#39;Adaptar un test psicométrico (1)&#39;,
+       &#39;Participar en proyectos abiertos y colaborativos a gran escala (1)&#39;,
+       &#39;Replicar un estudio previo (2)&#39;,
+       &#39;Pre-registrar un estudio antes de iniciar la recolección de datos (2)&#39;,
+       &#39;Poner datos recolectados a disposición mediante plataformas o repositorios públicos (2)&#39;,
+       &#39;Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (2)&#39;,
+       &#39;Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (2)&#39;,
+       &#39;Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (2)&#39;,
+       &#39;Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza (2)&#39;,
+       &#39;Usar revisión por partes abierta (2)&#39;,
+       &#39;Publicar en revistas de acceso abierto (2)&#39;,
+       &#39;Adaptar un test psicométrico (2)&#39;,
+       &#39;Participar en proyectos abiertos y colaborativos a gran escala (2)&#39;,
+       &#39;barriers_1&#39;, &#39;barriers_2&#39;, &#39;comments&#39;],
       dtype=&#39;object&#39;)</pre>
 </div>
 
@@ -13773,7 +13788,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[496]:</div>
+<div class="prompt input_prompt">In&nbsp;[525]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">exclusion_criteria</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s2">&quot;project&quot;</span><span class="p">,</span> <span class="s2">&quot;journal&quot;</span><span class="p">]]</span>
@@ -13814,7 +13829,7 @@ Participant n° 80 will be excluded
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[496]:</div>
+    <div class="prompt output_prompt">Out[525]:</div>
 
 
 
@@ -13848,13 +13863,13 @@ Participant n° 80 will be excluded
       <th>methodology</th>
       <th>belief</th>
       <th>...</th>
-      <th>public_materials_2</th>
-      <th>report_2</th>
-      <th>preprint_2</th>
-      <th>open_review_usage_2</th>
-      <th>open_review_publication_2</th>
-      <th>adapt_2</th>
-      <th>open_projects_2</th>
+      <th>Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (2)</th>
+      <th>Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (2)</th>
+      <th>Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza (2)</th>
+      <th>Usar revisión por partes abierta (2)</th>
+      <th>Publicar en revistas de acceso abierto (2)</th>
+      <th>Adaptar un test psicométrico (2)</th>
+      <th>Participar en proyectos abiertos y colaborativos a gran escala (2)</th>
       <th>barriers_1</th>
       <th>barriers_2</th>
       <th>comments</th>
@@ -14161,7 +14176,7 @@ Participant n° 80 will be excluded
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[497]:</div>
+<div class="prompt input_prompt">In&nbsp;[526]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;education&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14222,7 +14237,7 @@ Participant n° 80 will be excluded
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[498]:</div>
+<div class="prompt input_prompt">In&nbsp;[527]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;area&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -14238,7 +14253,7 @@ Participant n° 80 will be excluded
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[498]:</div>
+    <div class="prompt output_prompt">Out[527]:</div>
 
 
 
@@ -14281,7 +14296,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[499]:</div>
+<div class="prompt input_prompt">In&nbsp;[528]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;position&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14342,7 +14357,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[500]:</div>
+<div class="prompt input_prompt">In&nbsp;[529]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
@@ -14359,13 +14374,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[500]:</div>
+    <div class="prompt output_prompt">Out[529]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e97f9fd0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252ea1a5250&gt;</pre>
 </div>
 
 </div>
@@ -14406,7 +14421,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[501]:</div>
+<div class="prompt input_prompt">In&nbsp;[530]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">])</span>
@@ -14422,13 +14437,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[501]:</div>
+    <div class="prompt output_prompt">Out[530]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9999820&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e98713a0&gt;</pre>
 </div>
 
 </div>
@@ -14476,7 +14491,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[508]:</div>
+<div class="prompt input_prompt">In&nbsp;[531]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Do you believe that there is a crisis in science?&#39;</span><span class="p">)</span>
@@ -14493,13 +14508,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[508]:</div>
+    <div class="prompt output_prompt">Out[531]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e996e2e0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e53c8940&gt;</pre>
 </div>
 
 </div>
@@ -14540,7 +14555,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[503]:</div>
+<div class="prompt input_prompt">In&nbsp;[532]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14557,13 +14572,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[503]:</div>
+    <div class="prompt output_prompt">Out[532]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9a3cfa0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e53b2b80&gt;</pre>
 </div>
 
 </div>
@@ -14604,7 +14619,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[504]:</div>
+<div class="prompt input_prompt">In&nbsp;[533]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;methodology&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;belief&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
@@ -14620,13 +14635,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[504]:</div>
+    <div class="prompt output_prompt">Out[533]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9ab0760&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e54952b0&gt;</pre>
 </div>
 
 </div>
@@ -14667,7 +14682,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[505]:</div>
+<div class="prompt input_prompt">In&nbsp;[534]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;belief&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
@@ -14683,13 +14698,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[505]:</div>
+    <div class="prompt output_prompt">Out[534]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9b33730&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e7ef8a60&gt;</pre>
 </div>
 
 </div>
@@ -14730,7 +14745,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[506]:</div>
+<div class="prompt input_prompt">In&nbsp;[535]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">##### see how many comments use the word &quot;replicability&quot;</span>
@@ -14752,14 +14767,33 @@ Name: area, Length: 82, dtype: int64</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's go to create a tidy table that allow us to plot easily. This data, given that is provided for a likert scale, will be ploted with the HH package in R.</p>
-<p>The variables from 11 until 28 are assesments about statements concerning science.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[507]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[536]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">make_table</span><span class="p">(</span><span class="n">column</span><span class="p">):</span>
@@ -14772,7 +14806,7 @@ Name: area, Length: 82, dtype: int64</pre>
 <span class="k">def</span> <span class="nf">tables_by_columns</span><span class="p">(</span><span class="n">index_col_1</span><span class="p">,</span> <span class="n">index_col_2</span><span class="p">):</span>
     <span class="n">l</span> <span class="o">=</span> <span class="p">[]</span>    
     <span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;=</span> <span class="n">index_col_1</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">index_col_2</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;=</span> <span class="n">index_col_1</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">index_col_2</span><span class="p">):</span>
             <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">make_table</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">]))</span>
     <span class="k">return</span> <span class="n">l</span>
             
@@ -14787,10 +14821,112 @@ Name: area, Length: 82, dtype: int64</pre>
         <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
             <span class="n">df</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;Int64&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">df</span>
-    
-<span class="n">science</span> <span class="o">=</span> <span class="n">convert_to_int</span><span class="p">(</span><span class="n">combinate_tables</span><span class="p">(</span><span class="n">tables_by_columns</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">28</span><span class="p">)))</span>
-<span class="n">science</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/science.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
+</pre></div>
 
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[537]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0 timestamp
+1 consent
+2 age
+3 education
+4 area
+5 project
+6 journal
+7 position
+8 methodology
+9 belief
+10 belief_comments
+11 Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas
+12 A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos
+13 Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos
+14 Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables
+15 Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo
+16 Un resultado estadísticamente significativo es un resultado importante
+17 El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica
+18 El valor de p = .001 confirma que el tamaño del efecto ha sido grande
+19 Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática
+20 La realización de estudios de replicación es necesaria para el avance de la ciencia
+21 Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios
+22 Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original
+23 No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original
+24 El principal objetivo de las revistas científicas es publicar hallazgos novedosos
+25 La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones
+26 Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados
+27 Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos
+28 Replicar un estudio previo (1)
+29 Pre-registrar un estudio antes de iniciar la recolección de datos (1)
+30 public_data_1
+31 Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (1)
+32 Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (1)
+33 Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (1)
+34 Compartir una pre-impresión (pre-print) publicándola en un repositorio público o semi-público (1)
+35 Usar revisión por pares abierta (1)
+36 Publicar en revistas de acceso abierto (1)
+37 Adaptar un test psicométrico (1)
+38 Participar en proyectos abiertos y colaborativos a gran escala (1)
+39 Replicar un estudio previo (2)
+40 Pre-registrar un estudio antes de iniciar la recolección de datos (2)
+41 Poner datos recolectados a disposición mediante plataformas o repositorios públicos (2)
+42 Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (2)
+43 Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (2)
+44 Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (2)
+45 Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza (2)
+46 Usar revisión por partes abierta (2)
+47 Publicar en revistas de acceso abierto (2)
+48 Adaptar un test psicométrico (2)
+49 Participar en proyectos abiertos y colaborativos a gran escala (2)
+50 barriers_1
+51 barriers_2
+52 comments
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The variables from 11 until 27 are assesments about statements concerning science.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[538]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">science</span> <span class="o">=</span> <span class="n">convert_to_int</span><span class="p">(</span><span class="n">combinate_tables</span><span class="p">(</span><span class="n">tables_by_columns</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">27</span><span class="p">)))</span>
+<span class="n">science</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/science.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
 <span class="n">science</span>
 </pre></div>
 
@@ -14804,7 +14940,7 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[507]:</div>
+    <div class="prompt output_prompt">Out[538]:</div>
 
 
 
@@ -14988,6 +15124,358 @@ Name: area, Length: 82, dtype: int64</pre>
       <td>4</td>
       <td>5</td>
       <td>26</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The variables from 28 until 39 are assesments about knowledge and experience with some kind of open science practice.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[539]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">experience</span> <span class="o">=</span> <span class="n">convert_to_int</span><span class="p">(</span><span class="n">combinate_tables</span><span class="p">(</span><span class="n">tables_by_columns</span><span class="p">(</span><span class="mi">28</span><span class="p">,</span> <span class="mi">38</span><span class="p">)))</span>
+<span class="n">experience</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/experience.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
+<span class="n">experience</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[539]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Measures</th>
+      <th>Nunca lo hice, pero sé cómo hacerlo</th>
+      <th>Sí, lo he hecho</th>
+      <th>Nunca lo hice, pero escuché hablar de eso</th>
+      <th>Sí, lo estoy haciendo</th>
+      <th>Nunca lo hice, ni escuché hablar de eso</th>
+      <th>Lo intenté, pero no lo completé</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Replicar un estudio previo (1)</td>
+      <td>28</td>
+      <td>26</td>
+      <td>23</td>
+      <td>11</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Pre-registrar un estudio antes de iniciar la r...</td>
+      <td>15</td>
+      <td>7</td>
+      <td>32</td>
+      <td>8</td>
+      <td>30</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>public_data_1</td>
+      <td>26</td>
+      <td>15</td>
+      <td>35</td>
+      <td>10</td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Compartir los métodos analíticos (e.g., script...</td>
+      <td>22</td>
+      <td>12</td>
+      <td>38</td>
+      <td>9</td>
+      <td>8</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Poner los materiales (e.g., cuestionarios, pro...</td>
+      <td>24</td>
+      <td>18</td>
+      <td>32</td>
+      <td>13</td>
+      <td>1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Reportar toda la información necesaria detalla...</td>
+      <td>13</td>
+      <td>40</td>
+      <td>16</td>
+      <td>20</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Compartir una pre-impresión (pre-print) public...</td>
+      <td>26</td>
+      <td>18</td>
+      <td>32</td>
+      <td>8</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Usar revisión por pares abierta (1)</td>
+      <td>14</td>
+      <td>23</td>
+      <td>25</td>
+      <td>7</td>
+      <td>21</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Publicar en revistas de acceso abierto (1)</td>
+      <td>13</td>
+      <td>51</td>
+      <td>8</td>
+      <td>18</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Adaptar un test psicométrico (1)</td>
+      <td>18</td>
+      <td>23</td>
+      <td>33</td>
+      <td>11</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Participar en proyectos abiertos y colaborativ...</td>
+      <td>21</td>
+      <td>18</td>
+      <td>31</td>
+      <td>12</td>
+      <td>6</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The variables from 39 until 49 are assesments about every open science practice as a means to improve quality and efficiency of scientific research.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[540]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">efficiency</span> <span class="o">=</span> <span class="n">convert_to_int</span><span class="p">(</span><span class="n">combinate_tables</span><span class="p">(</span><span class="n">tables_by_columns</span><span class="p">(</span><span class="mi">39</span><span class="p">,</span> <span class="mi">49</span><span class="p">)))</span>
+<span class="n">efficiency</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/efficiency.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
+<span class="n">efficiency</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[540]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Measures</th>
+      <th>Medianamente importante</th>
+      <th>Muy importante</th>
+      <th>No sé</th>
+      <th>Poco importante</th>
+      <th>Nada importante</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Replicar un estudio previo (2)</td>
+      <td>45</td>
+      <td>41</td>
+      <td>6</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Pre-registrar un estudio antes de iniciar la r...</td>
+      <td>37</td>
+      <td>20</td>
+      <td>22</td>
+      <td>9</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Poner datos recolectados a disposición mediant...</td>
+      <td>30</td>
+      <td>53</td>
+      <td>7</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Compartir los métodos analíticos (e.g., script...</td>
+      <td>24</td>
+      <td>55</td>
+      <td>8</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Poner los materiales (e.g., cuestionarios, pro...</td>
+      <td>19</td>
+      <td>64</td>
+      <td>5</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Reportar toda la información necesaria detalla...</td>
+      <td>14</td>
+      <td>72</td>
+      <td>5</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Compartir una pre-impresión (pre-print) public...</td>
+      <td>27</td>
+      <td>32</td>
+      <td>12</td>
+      <td>17</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Usar revisión por partes abierta (2)</td>
+      <td>26</td>
+      <td>36</td>
+      <td>19</td>
+      <td>11</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Publicar en revistas de acceso abierto (2)</td>
+      <td>17</td>
+      <td>67</td>
+      <td>5</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Adaptar un test psicométrico (2)</td>
+      <td>21</td>
+      <td>52</td>
+      <td>6</td>
+      <td>11</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Participar en proyectos abiertos y colaborativ...</td>
+      <td>27</td>
+      <td>55</td>
+      <td>8</td>
+      <td>3</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>

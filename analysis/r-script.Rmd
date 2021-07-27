@@ -9,30 +9,8 @@ knitr::opts_chunk$set(dev = "png",
                       dpi = 300)
 ```
 
-This analysis revolves around the undergraduate thesis carried out by Franco Sebastián Benítez, tutored by Débora Burin and Lucas Cuenya, from the Psychology Department of the University of Buenos Aires.
-
-As set in our preregistration, we are checking the following aspects:
-
-1) Check for exclusion criteria in the demographic data, and in the completion rate.
-
-2) Describe the sample’s demographic characteristics.
-
-3) Analyse the total percentage of “yes” responses to belief in crisis. Analyse as a function of career stage and methodological approach.
-
-4) Qualitative analysis of open field response to belief in crisis.
-
-5) Percentage of agreement with each, and combined, statements about replication crisis, p-value, publication bias. Analyse as a function of career stage and methodological approach.
-
-6) Percentage of agreement with each, and combined, statements about perceived barriers. Analyse as a function of career stage and methodological approach.
-
-7) Percentage of agreement with each, and combined, statements about attitudes against adopting open science practices. Analyse as a function of career stage and methodological approach.
-
-8) Qualitative analysis of open field response to attitudes about barriers against adopting open science practices.
-
 ## Loading the neccesary libraries
 ```{r, message=FALSE}
-library(dplyr)        # data wrangling
-library(ggplot2)      # plotting
 library(readr)        # csv
 library(rmarkdown)    # table
 library(HH)           # likert
@@ -40,8 +18,8 @@ library(HH)           # likert
 
 ## Loading the dataset
 ```{r, message=FALSE, warning=FALSE}
-df <- read_csv("../data/science.csv")
-paged_table(df)
+science <- read_csv("../data/science.csv")
+paged_table(science)
 ```
 ```{r science, out.width="100%", fig.height=15, fig.width=30}
 likert(Measures ~ .,
@@ -55,7 +33,38 @@ likert(Measures ~ .,
        ylab=NULL,
        scales = list(y = list(cex = 1.5))) 
 ```
-
+```{r, message=FALSE, warning=FALSE}
+experience <- read_csv("../data/experience.csv")
+paged_table(experience)
+```
+```{r experience, out.width="100%", fig.height=15, fig.width=30}
+likert(Measures ~ .,
+       data=experience,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main="Marque la opción que mejor represente su conocimiento y experiencia con cada práctica en los últimos 5 (cinco) años",
+       rightAxis=F,
+       key.border.white=F,
+       auto.key.in = list(cex=1.5),
+       ylab=NULL,
+       scales = list(y = list(cex = 1.5))) 
+```
+```{r, message=FALSE, warning=FALSE}
+efficiency <- read_csv("../data/efficiency.csv")
+paged_table(efficiency)
+```
+```{r efficiency, out.width="100%", fig.height=15, fig.width=30}
+likert(Measures ~ .,
+       data=efficiency,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main="Elija la opción que mejor represente cuán importante considera que es cada una de las siguientes prácticas para mejorar la calidad y eficiencia de las investigaciones en su campo",
+       rightAxis=F,
+       key.border.white=F,
+       auto.key.in = list(cex=1.5),
+       ylab=NULL,
+       scales = list(y = list(cex = 1.5))) 
+```
 
 
 
