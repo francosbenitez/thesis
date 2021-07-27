@@ -43,48 +43,17 @@ library(HH)           # likert
 df <- read_csv("../data/science.csv")
 paged_table(df)
 ```
-```{r science, out.width="100%", fig.height=15, fig.width=25}
-origNames = colnames(df)
-myPanelFunc <- function(...){
-  panel.likert(...)
-  vals <- list(...)
-  DF <- data.frame(x=vals$x, y=vals$y, groups=vals$groups)
-  grps <- as.character(DF$groups)
-  for(i in 1:length(origNames)){
-    grps <- sub(paste0('^',origNames[i]),i,grps)
-  }
-  DF <- DF[order(DF$y,grps),]
-  DF$correctX <- ave(DF$x,DF$y,FUN=function(x){
-    x[x < 0] <- rev(cumsum(rev(x[x < 0]))) - x[x < 0]/2
-    x[x > 0] <- cumsum(x[x > 0]) - x[x > 0]/2
-    return(x)
-  })
-  subs <- sub(' Positive$','',DF$groups)
-  collapse <- subs[-1] == subs[-length(subs)] & DF$y[-1] == DF$y[-length(DF$y)]
-  DF$abs <- abs(DF$x)
-  DF$abs[c(collapse,FALSE)] <- DF$abs[c(collapse,FALSE)] + DF$abs[c(FALSE,collapse)]
-  DF$correctX[c(collapse,FALSE)] <- 0
-  DF <- DF[c(TRUE,!collapse),]
-  DF$perc <- round(ave(DF$abs,DF$y,FUN=function(x){x/sum(x) * 100}), 0)
-  DF$perc <- paste0(DF$perc,'%')
-  DF$perc[DF$perc == "0%"] <- ""
-  panel.text(x=DF$correctX, y=DF$y, label=DF$perc, cex=1)
-}
-
-
+```{r science, out.width="100%", fig.height=15, fig.width=30}
 likert(Measures ~ .,
        data=df,
-       ReferenceZero=3,
        as.percent=TRUE,
        positive.order=TRUE,
-       main=list("Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia",
-                 x=unit(.50, "npc")),
+       main="Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia",
        rightAxis=F,
        key.border.white=F,
-       panel=myPanelFunc,
-       auto.key=list(cex=1.2),
-       scales = list(y = list(cex = 1.2)))
-
+       auto.key.in = list(cex=1.5),
+       ylab=NULL,
+       scales = list(y = list(cex = 1.5))) 
 ```
 
 

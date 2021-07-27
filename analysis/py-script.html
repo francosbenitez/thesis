@@ -14476,7 +14476,7 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[502]:</div>
+<div class="prompt input_prompt">In&nbsp;[508]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Do you believe that there is a crisis in science?&#39;</span><span class="p">)</span>
@@ -14493,13 +14493,13 @@ Name: area, Length: 82, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[502]:</div>
+    <div class="prompt output_prompt">Out[508]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e9a14490&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x252e996e2e0&gt;</pre>
 </div>
 
 </div>
@@ -14522,6 +14522,14 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>As we can see, the results are divided. Below we will be seeing how those respondents who said "yes" justify their answers.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14740,6 +14748,15 @@ Name: area, Length: 82, dtype: int64</pre>
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's go to create a tidy table that allow us to plot easily. This data, given that is provided for a likert scale, will be ploted with the HH package in R.</p>
+<p>The variables from 11 until 28 are assesments about statements concerning science.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[507]:</div>
@@ -14771,8 +14788,8 @@ Name: area, Length: 82, dtype: int64</pre>
             <span class="n">df</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="n">column</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;Int64&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">df</span>
     
-<span class="n">science</span> <span class="o">=</span> <span class="n">convert_to_int</span><span class="p">(</span><span class="n">combinate_tables</span><span class="p">(</span><span class="n">tables_by_columns</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">28</span><span class="p">)))</span> <span class="c1"># the variables 11 until 28 are assesments about statements concerning science  </span>
-<span class="n">science</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/science.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="c1"># this table is exported to be ploted with the HH package in R</span>
+<span class="n">science</span> <span class="o">=</span> <span class="n">convert_to_int</span><span class="p">(</span><span class="n">combinate_tables</span><span class="p">(</span><span class="n">tables_by_columns</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">28</span><span class="p">)))</span>
+<span class="n">science</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;../data/science.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
 
 <span class="n">science</span>
 </pre></div>
