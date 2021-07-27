@@ -33,6 +33,7 @@ library(dplyr)        # data wrangling
 library(ggplot2)      # plotting
 library(readr)        # csv
 library(rmarkdown)    # table
+library(HH)           # likert
 ```
 
 ## Loading the dataset
@@ -42,6 +43,49 @@ paged_table(df)
 ```
 
 ```{r}
+
+dimnames(table(df$significance))
+significance <- data.frame(table(df$significance))
+new_df <- as.data.frame(t(significance))
+colnames(new_df) <- unlist(new_df["Var1",])
+new_df <- new_df[!row.names(new_df)=='Var1',]
+rownames(new_df) <- c("1")
+Measure <- c("significance")
+new_df <-cbind(Measure, new_df)
+new_df$"Algo de acuerdo" <- as.integer(new_df$"Algo de acuerdo")
+new_df$"Bastante de acuerdo" <- as.integer(new_df$"Bastante de acuerdo")
+new_df$"Muy de acuerdo" <- as.integer(new_df$"Muy de acuerdo")
+new_df$"Nada de acuerdo" <- as.integer(new_df$"Nada de acuerdo")
+new_df$"No sé" <- as.integer(new_df$"No sé")
+
+t(data.frame(table(df$journal_significance)))
+
+
+new_df
+```
+```{r}
+plot.likert(new_df, 
+as.percent=TRUE, 
+main = "Graph title",
+positive.order = T,
+ylab = "Question",    
+key.border.white=F,
+rightAxis=F, col = c("#FF7F00", "#FFBF80", "#C1E0F4", "#82C0E9")   
+)
+```
+```{r}
+likert(Measure ~ .,
+       data=new_df,
+       ylab=NULL,
+       ReferenceZero=3,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Resident Survey Satisfaction Survey",
+                 x=unit(.55, "npc")),
+       sub=list("Satisfaction Rating", x=unit(.57, "npc")),
+       strip=FALSE,
+       par.strip.text=list(cex=.7))
+
 
 ```
 
