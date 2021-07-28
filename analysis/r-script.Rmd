@@ -10,20 +10,35 @@ knitr::opts_chunk$set(dev = "png",
 ```
 
 ## Loading the neccesary libraries
-```{r, message=FALSE}
-library(readr)        # csv
-library(rmarkdown)    # table
-library(HH)           # likert
+```{r, message=FALSE, warning=FALSE}
+library(readr)        # load csv
+library(rmarkdown)    # see table
+library(HH)           # likert plotting
 ```
 
-## Loading the dataset
+### Loading the tables
 ```{r, message=FALSE, warning=FALSE}
 science <- read_csv("../data/science.csv")
+experience <- read_csv("../data/experience.csv")
+efficiency <- read_csv("../data/efficiency.csv")
+```
+
+```{r, message=FALSE, warning=FALSE}
 paged_table(science)
 ```
+
+```{r, message=FALSE, warning=FALSE}
+paged_table(experience)
+```
+
+```{r, message=FALSE, warning=FALSE}
+paged_table(efficiency)
+```
+
+#### Plotting the science dataset
 ```{r science, out.width="100%", fig.height=15, fig.width=30}
 likert(Measures ~ .,
-       data=df,
+       data=science,
        as.percent=TRUE,
        positive.order=TRUE,
        main="Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia",
@@ -33,11 +48,9 @@ likert(Measures ~ .,
        ylab=NULL,
        scales = list(y = list(cex = 1.5))) 
 ```
-```{r, message=FALSE, warning=FALSE}
-experience <- read_csv("../data/experience.csv")
-paged_table(experience)
-```
-```{r experience, out.width="100%", fig.height=15, fig.width=30}
+
+#### Plotting the experience dataset
+```{r experience, out.width="100%", fig.height=15, fig.width=40}
 likert(Measures ~ .,
        data=experience,
        as.percent=TRUE,
@@ -49,10 +62,8 @@ likert(Measures ~ .,
        ylab=NULL,
        scales = list(y = list(cex = 1.5))) 
 ```
-```{r, message=FALSE, warning=FALSE}
-efficiency <- read_csv("../data/efficiency.csv")
-paged_table(efficiency)
-```
+
+#### Plotting the efficiency dataset
 ```{r efficiency, out.width="100%", fig.height=15, fig.width=30}
 likert(Measures ~ .,
        data=efficiency,
@@ -66,7 +77,48 @@ likert(Measures ~ .,
        scales = list(y = list(cex = 1.5))) 
 ```
 
+#### Plotting the science dataset by education
+```{r significance_by_education, out.width="100%", fig.height=15, fig.width=30}
+significance_by_education <- read_csv("../data/significance_by_education.csv")
 
+origNames = colnames(significance_by_education)
+myPanelFunc <- function(...){
+  panel.likert(...)
+  vals <- list(...)
+  DF <- data.frame(x=vals$x, y=vals$y, groups=vals$groups)
+  grps <- as.character(DF$groups)
+  for(i in 1:length(origNames)){
+    grps <- sub(paste0('^',origNames[i]),i,grps)
+  }
+  DF <- DF[order(DF$y,grps),]
+  DF$correctX <- ave(DF$x,DF$y,FUN=function(x){
+    x[x < 0] <- rev(cumsum(rev(x[x < 0]))) - x[x < 0]/2
+    x[x > 0] <- cumsum(x[x > 0]) - x[x > 0]/2
+    return(x)
+  })
+  subs <- sub(' Positive$','',DF$groups)
+  collapse <- subs[-1] == subs[-length(subs)] & DF$y[-1] == DF$y[-length(DF$y)]
+  DF$abs <- abs(DF$x)
+  DF$abs[c(collapse,FALSE)] <- DF$abs[c(collapse,FALSE)] + DF$abs[c(FALSE,collapse)]
+  DF$correctX[c(collapse,FALSE)] <- 0
+  DF <- DF[c(TRUE,!collapse),]
+  DF$perc <- round(ave(DF$abs,DF$y,FUN=function(x){x/sum(x) * 100}), 0)
+  DF$perc <- paste0(DF$perc,'%')
+  DF$perc[DF$perc == "0%"] <- ""
+  panel.text(x=DF$correctX, y=DF$y, label=DF$perc, cex=1)
+}
+
+likert(education ~ .,
+       data=significance_by_education,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main="Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas",
+       key.border.white=F,
+       panel=myPanelFunc,
+       auto.key.in = list(cex=1.5),
+       ylab=NULL,
+       scales = list(y = list(cex = 1.5))) 
+```
 
 
 
