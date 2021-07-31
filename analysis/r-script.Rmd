@@ -12,41 +12,123 @@ knitr::opts_chunk$set(dev = "png",
 ## Loading the neccesary libraries
 ```{r, message=FALSE, warning=FALSE}
 library(readr)        # load csv
-library(rmarkdown)    # see table
 library(HH)           # likert plotting
 ```
 
-### Loading the tables
+First, we load the tables.
 ```{r, message=FALSE, warning=FALSE}
-science <- read_csv("../data/science.csv")
-experience <- read_csv("../data/experience.csv")
-efficiency <- read_csv("../data/efficiency.csv")
+science <- read_csv("../data/cleaned/science.csv")
+experience <- read_csv("../data/cleaned/experience.csv")
+efficiency <- read_csv("../data/cleaned/efficiency.csv")
 ```
 
-```{r, message=FALSE, warning=FALSE}
-paged_table(science)
+We add a function to set percentages in plots.
+```{r}
+#origNames = colnames(data)
+panel <- function(...){
+  panel.likert(...)
+  vals <- list(...)
+  DF <- data.frame(x=vals$x, y=vals$y, groups=vals$groups)
+  grps <- as.character(DF$groups)
+  for(i in 1:length(origNames)){
+    grps <- sub(paste0('^',origNames[i]),i,grps)
+  }
+  DF <- DF[order(DF$y,grps),]
+  DF$correctX <- ave(DF$x,DF$y,FUN=function(x){
+    x[x < 0] <- rev(cumsum(rev(x[x < 0]))) - x[x < 0]/2
+    x[x > 0] <- cumsum(x[x > 0]) - x[x > 0]/2
+    return(x)
+  })
+  subs <- sub(' Positive$','',DF$groups)
+  collapse <- subs[-1] == subs[-length(subs)] & DF$y[-1] == DF$y[-length(DF$y)]
+  DF$abs <- abs(DF$x)
+  DF$abs[c(collapse,FALSE)] <- DF$abs[c(collapse,FALSE)] + DF$abs[c(FALSE,collapse)]
+  DF$correctX[c(collapse,FALSE)] <- 0
+  DF <- DF[c(TRUE,!collapse),]
+  DF$perc <- round(ave(DF$abs,DF$y,FUN=function(x){x/sum(x) * 100}), 0)
+  DF$perc <- paste0(DF$perc,'%')
+  DF$perc[DF$perc == "0%"] <- ""
+  panel.text(x=DF$correctX, y=DF$y, label=DF$perc, cex=1)
+}
 ```
 
-```{r, message=FALSE, warning=FALSE}
-paged_table(experience)
-```
+We start by plotting the science table.
+```{r science, out.width="100%", fig.height=20, fig.width=40}
 
-```{r, message=FALSE, warning=FALSE}
-paged_table(efficiency)
-```
-
-#### Plotting the science dataset
-```{r science, out.width="100%", fig.height=15, fig.width=30}
 likert(Measures ~ .,
        data=science,
        as.percent=TRUE,
        positive.order=TRUE,
-       main="Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia",
+       main=list("Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia", cex=3),
        rightAxis=F,
-       key.border.white=F,
-       auto.key.in = list(cex=1.5),
        ylab=NULL,
-       scales = list(y = list(cex = 1.5))) 
+       panel=NULL,
+       xlab=list("Percent", cex=2),
+       auto.key=list(cex=2),
+       scales=list(y=list(cex=2),
+                            xlab=list(cex=2)
+                   )
+       )
+```
+
+Now the experience table.
+```{r experience, out.width="100%", fig.height=20, fig.width=40}
+
+likert(Measures ~ .,
+       data=experience,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Marque la opción que mejor represente su conocimiento y experiencia con cada práctica en los últimos 5 (cinco) años", cex=3),
+       rightAxis=F,
+       ylab=NULL,
+       panel=NULL,
+       xlab=list("Percent", cex=2),
+       auto.key=list(cex=1.6),
+       scales=list(y=list(cex=1.7),
+                            xlab=list(cex=2)
+                   )
+       )
+```
+
+Finally, the efficiency table.
+```{r efficiency, out.width="100%", fig.height=20, fig.width=40}
+
+likert(Measures ~ .,
+       data=efficiency,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Elija la opción que mejor represente cuán importante considera que es cada una de las siguientes 
+                 prácticas para mejorar la calidad y eficiencia de las investigaciones en su campo", cex=3),
+       rightAxis=F,
+       ylab=NULL,
+       panel=NULL,
+       xlab=list("Percent", cex=2),
+       auto.key=list(cex=2),
+       scales=list(y=list(cex=2),
+                            xlab=list(cex=2)
+                   )
+       )
+```
+
+
+
+
+
+#### Plotting the science dataset
+
+
+library(tidyverse)
+
+plot_likert <- function(v1, v2, v3) {
+  
+
+plot_likert(Measures, science, )
+
+
+
+
+
+
 ```
 
 #### Plotting the experience dataset
@@ -80,7 +162,6 @@ likert(Measures ~ .,
 #### Plotting the science dataset by education
 ```{r significance_by_education, out.width="100%", fig.height=15, fig.width=30}
 significance_by_education <- read_csv("../data/significance_by_education.csv")
-
 origNames = colnames(significance_by_education)
 myPanelFunc <- function(...){
   panel.likert(...)
@@ -107,7 +188,6 @@ myPanelFunc <- function(...){
   DF$perc[DF$perc == "0%"] <- ""
   panel.text(x=DF$correctX, y=DF$y, label=DF$perc, cex=1)
 }
-
 likert(education ~ .,
        data=significance_by_education,
        as.percent=TRUE,
@@ -120,6 +200,21 @@ likert(education ~ .,
        scales = list(y = list(cex = 1.5))) 
 ```
 
+
+
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
 
 
 
