@@ -22,8 +22,38 @@ experience <- read_csv("../data/cleaned/experience.csv")
 efficiency <- read_csv("../data/cleaned/efficiency.csv")
 ```
 
+We add a function to set percentages in plots.
+```{r}
+origNames = colnames(data)
+panel <- function(...){
+  panel.likert(...)
+  vals <- list(...)
+  DF <- data.frame(x=vals$x, y=vals$y, groups=vals$groups)
+  grps <- as.character(DF$groups)
+  for(i in 1:length(origNames)){
+    grps <- sub(paste0('^',origNames[i]),i,grps)
+  }
+  DF <- DF[order(DF$y,grps),]
+  DF$correctX <- ave(DF$x,DF$y,FUN=function(x){
+    x[x < 0] <- rev(cumsum(rev(x[x < 0]))) - x[x < 0]/2
+    x[x > 0] <- cumsum(x[x > 0]) - x[x > 0]/2
+    return(x)
+  })
+  subs <- sub(' Positive$','',DF$groups)
+  collapse <- subs[-1] == subs[-length(subs)] & DF$y[-1] == DF$y[-length(DF$y)]
+  DF$abs <- abs(DF$x)
+  DF$abs[c(collapse,FALSE)] <- DF$abs[c(collapse,FALSE)] + DF$abs[c(FALSE,collapse)]
+  DF$correctX[c(collapse,FALSE)] <- 0
+  DF <- DF[c(TRUE,!collapse),]
+  DF$perc <- round(ave(DF$abs,DF$y,FUN=function(x){x/sum(x) * 100}), 0)
+  DF$perc <- paste0(DF$perc,'%')
+  DF$perc[DF$perc == "0%"] <- ""
+  panel.text(x=DF$correctX, y=DF$y, label=DF$perc, cex=1)
+}
+```
+
 We start by plotting the science table.
-```{r science, out.width="100%", fig.height=20, fig.width=40}
+```{r science, out.width="100%", fig.height=25, fig.width=50}
 
 likert(Measures ~ .,
        data=science,
@@ -31,17 +61,18 @@ likert(Measures ~ .,
        positive.order=TRUE,
        main=list("Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia", cex=3),
        rightAxis=F,
+       #panel=panel,
        ylab=NULL,
-       xlab=list("Percent", cex=2),
-       auto.key=list(cex=2),
-       scales=list(y=list(cex=2),
-                            xlab=list(cex=2)
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3, columns=1),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
                    )
        )
 ```
 
 Now the experience table.
-```{r experience, out.width="100%", fig.height=20, fig.width=50}
+```{r experience, out.width="100%", fig.height=25, fig.width=50}
 
 likert(Measures ~ .,
        data=experience,
@@ -49,30 +80,31 @@ likert(Measures ~ .,
        positive.order=TRUE,
        main=list("Marque la opción que mejor represente su conocimiento y experiencia con cada práctica en los últimos 5 (cinco) años", cex=3),
        rightAxis=F,
+       #panel=panel,
        ylab=NULL,
-       xlab=list("Percent", cex=2),
-       auto.key=list(cex=2),
-       scales=list(y=list(cex=2),
-                            xlab=list(cex=2)
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3, columns=1),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
                    )
        )
 ```
 
 Finally, the efficiency table.
-```{r efficiency, out.width="100%", fig.height=20, fig.width=40}
+```{r efficiency, out.width="100%", fig.height=25, fig.width=50}
 
 likert(Measures ~ .,
        data=efficiency,
        as.percent=TRUE,
        positive.order=TRUE,
-       main=list("Elija la opción que mejor represente cuán importante considera que es cada una de las siguientes 
-                 prácticas para mejorar la calidad y eficiencia de las investigaciones en su campo", cex=3),
+       main=list("Elija la opción que mejor represente cuán importante considera que es cada una de las siguientes prácticas para mejorar la calidad y eficiencia de las investigaciones en su campo", cex=3),
        rightAxis=F,
+       #panel=panel,
        ylab=NULL,
-       xlab=list("Percent", cex=2),
-       auto.key=list(cex=2),
-       scales=list(y=list(cex=2),
-                            xlab=list(cex=2)
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
                    )
        )
 ```
