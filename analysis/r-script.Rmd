@@ -61,10 +61,13 @@ likert(Measures ~ .,
        positive.order=TRUE,
        main=list("Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia", cex=3),
        rightAxis=F,
+       #col=c("#CA0020", "#F4A582", "#F7F7F7", "#92C5DE", "#0571B0"),
        #panel=panel,
        ylab=NULL,
        xlab=list("Percent", cex=3),
+       #auto.key=list(cex=3, columns=1, rect=list(col=c("#CA0020", "#F4A582", "#F7F7F7", "#92C5DE", "#0571B0"), border = "black")),
        auto.key=list(cex=3, columns=1),
+       #borders = list(),
        scales=list(y=list(cex=3),
                             xlab=list(cex=3)
                    )
