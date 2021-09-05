@@ -1,13 +1,13 @@
 ,education,Medianamente importante,Muy importante,Nada importante,No sé,Poco importante
-0,Doctorado,12.0,10.0,1.0,10.0,3.0
-1,Especialización,3.0,2.0,0.0,4.0,0.0
+0,Doctorado,12.0,10.0,1.0,9.0,3.0
+1,Especialización,2.0,2.0,0.0,4.0,0.0
 2,Especialización;Maestría,1.0,0.0,0.0,0.0,0.0
 3,Estudiante de Doctorado,0.0,0.0,0.0,1.0,0.0
-4,Estudiante de licenciatura,3.0,3.0,0.0,2.0,2.0
-5,Licenciado,8.0,4.0,3.0,2.0,3.0
+4,Estudiante de licenciatura,3.0,3.0,0.0,2.0,1.0
+5,Licenciado,8.0,4.0,2.0,2.0,3.0
 6,Licenciado;Doctorado en curso,1.0,0.0,0.0,0.0,0.0
 7,Licenciado;En proceso de tesis de maestría,1.0,0.0,0.0,0.0,0.0
 8,Licenciado;Especialización;Maestría,3.0,0.0,0.0,0.0,0.0
 9,Licenciado;estudiante de doctorado,0.0,0.0,0.0,1.0,0.0
-10,Maestría,5.0,0.0,2.0,2.0,2.0
+10,Maestría,4.0,0.0,2.0,2.0,2.0
 11,Postdoctorado,0.0,1.0,0.0,0.0,0.0
