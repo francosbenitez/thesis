@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Perceptions about Replicability Crisis and Open Science</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -17,17 +18,18 @@
       text-decoration: none;
       line-height: 2rem;
       background-color: #EDEDED;
-      font-family: 'Inter';
+      font-family: "IBM Plex Sans";
       --color-title: #2079c7;
       --color-text: #313131;
+      --color-link: #1155cc;
   }
   
   a {
-      color: #1155cc;   
+      color: var(--color-link);   
   }
     
   li a:hover {
-      border-bottom: 1.5px #2079c7 dotted;
+      border-bottom: 1.5px var(--color-link) dotted;
       cursor: pointer;
   }
 
@@ -89,8 +91,8 @@
     <h3 class='subtitle'>Analysis scripts</h3>
     <ul class='lists'>
       <ol>
-        <li><a href="./analysis/r-script.html">R Script</a></li>
         <li><a href="./analysis/py-script.html">Python Script</a></li>
+        <li><a href="./analysis/r-script.html">R Script</a></li>
       </ol>
     </ul>  
 </body>
