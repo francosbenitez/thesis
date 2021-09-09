@@ -1,4 +1,4 @@
-# Data Analysis of My Undergraduate Thesis: Project Overview 
+# Data Analysis of My Undergraduate Thesis 
 * Developed Python functions to manipulate and plot the dataset.
 * Created some R plots to visualize likert scale results. 
 
