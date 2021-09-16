@@ -8,7 +8,7 @@
   - **R:** HH, readr
 
 ## Live Demo
-- [Website](francosbenitez.github.io/thesis)
+- [Website](https://francosbenitez.github.io/thesis/)
 
 ## Download the Database
 * The data in CSV format can be found on [the website of the project](https://francosbenitez.github.io/thesis/).
