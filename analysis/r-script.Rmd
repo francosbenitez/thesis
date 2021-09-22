@@ -1,5 +1,5 @@
 ---
-title: "Exploratory analysis of Perceptions about Science and Open Science"
+title: "Exploratory analysis of Perceptions about Replicability Crisis and Open Science"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ library(readr)        # load csv
 library(HH)           # likert plotting
 ```
 
-First, we load the tables.
+We load the tables.
 ```{r, message=FALSE, warning=FALSE}
 science <- read_csv("../data/cleaned/science.csv")
 experience <- read_csv("../data/cleaned/experience.csv")
