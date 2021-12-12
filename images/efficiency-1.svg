@@ -1,145 +1,216 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='3600.00pt' height='1800.00pt' viewBox='0 0 3600.00 1800.00'>
-<defs>
-  <style type='text/css'><![CDATA[
-    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
-      fill: none;
-      stroke: #000000;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-miterlimit: 10.00;
-    }
-  ]]></style>
-</defs>
-<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
-<defs>
-  <clipPath id='cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA=='>
-    <rect x='0.00' y='0.00' width='3600.00' height='1800.00' />
-  </clipPath>
-</defs>
-<g clip-path='url(#cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA==)'>
-<rect x='0.00' y='0.00' width='3600.00' height='1800.00' style='stroke-width: 0.75; stroke: none;' />
-<text x='1800.00' y='31.78' text-anchor='middle' style='font-size: 36.00px; font-weight: bold; font-family: Arial;' textLength='3075.16px' lengthAdjust='spacingAndGlyphs'>Elija la opción que mejor represente cuán importante considera que es cada una de las siguientes prácticas para mejorar la calidad y eficiencia de las investigaciones en su campo</text>
-<text x='2757.50' y='1681.96' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='124.07px' lengthAdjust='spacingAndGlyphs'>Percent</text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3600 1800" style="enable-background:new 0 0 3600 1800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:none;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:36px;}
+	.st5{font-family:'ArialMT';}
+	.st6{clip-path:url(#SVGID_6_);}
+	.st7{fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{enable-background:new    ;}
+	.st9{letter-spacing:6;}
+	.st10{letter-spacing:13;}
+	.st11{letter-spacing:4;}
+	.st12{letter-spacing:10;}
+	.st13{letter-spacing:18;}
+	.st14{clip-path:url(#SVGID_8_);}
+	.st15{fill:none;stroke:#A6A6A6;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st16{fill:#E2E2E2;stroke:#E2E2E2;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st17{fill:#A2ACE5;stroke:#A2ACE5;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st18{fill:#768BE6;stroke:#768BE6;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st19{fill:#E79AA9;stroke:#E79AA9;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st20{fill:#E16A86;stroke:#E16A86;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st21{clip-path:url(#SVGID_10_);}
+	.st22{fill:#E16A86;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st23{fill:#E79AA9;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st24{fill:#E2E2E2;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st25{fill:#A2ACE5;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st26{fill:#768BE6;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<rect class="st0" width="3600" height="1800"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="3600" height="1800"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st1">
+		<rect class="st2" width="3600" height="1800"/>
+		<rect x="262.4" y="0.9" class="st2" width="3075.2" height="44.4"/>
+		<text transform="matrix(1 0 0 1 262.4238 31.7798)" class="st3 st4">Elija la opción que mejor represente cuán importante considera que es cada una de las siguientes prácticas para mejorar la calidad y eficiencia de las investigaciones en su campo</text>
+		<rect x="2695.5" y="1651.1" class="st2" width="124.1" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2695.4668 1681.96)" class="st5 st4">Percent</text>
+	</g>
 </g>
-<defs>
-  <clipPath id='cpMTkzOC4zNHwzNTc2LjY2fDYwLjc4fDE2MDcuNDA='>
-    <rect x='1938.34' y='60.78' width='1638.32' height='1546.61' />
-  </clipPath>
-</defs>
-<g clip-path='url(#cpMTkzOC4zNHwzNTc2LjY2fDYwLjc4fDE2MDcuNDA=)'>
+<g>
+	<defs>
+		<rect id="SVGID_3_" x="1938.3" y="60.8" width="1638.3" height="1546.6"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
 </g>
-<g clip-path='url(#cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA==)'>
-<line x1='2132.08' y1='60.78' x2='2132.08' y2='55.11' style='stroke-width: 0.75;' />
-<line x1='2371.60' y1='60.78' x2='2371.60' y2='55.11' style='stroke-width: 0.75;' />
-<line x1='2611.13' y1='60.78' x2='2611.13' y2='55.11' style='stroke-width: 0.75;' />
-<line x1='2850.65' y1='60.78' x2='2850.65' y2='55.11' style='stroke-width: 0.75;' />
-<line x1='3090.17' y1='60.78' x2='3090.17' y2='55.11' style='stroke-width: 0.75;' />
-<line x1='3329.69' y1='60.78' x2='3329.69' y2='55.11' style='stroke-width: 0.75;' />
-<line x1='3569.21' y1='60.78' x2='3569.21' y2='55.11' style='stroke-width: 0.75;' />
-<text x='1932.67' y='1537.43' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1384.76px' lengthAdjust='spacingAndGlyphs'>Compartir una pre-impresión (pre-print) publicándola en un repositorio de confianza (2)</text>
-<text x='1932.67' y='1399.34' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1060.58px' lengthAdjust='spacingAndGlyphs'>Pre-registrar un estudio antes de iniciar la recolección de datos (2)</text>
-<text x='1932.67' y='1261.25' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='556.24px' lengthAdjust='spacingAndGlyphs'>Usar revisión por partes abierta (2)</text>
-<text x='1932.67' y='1123.16' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='510.24px' lengthAdjust='spacingAndGlyphs'>Adaptar un test psicométrico (2)</text>
-<text x='1932.67' y='985.07' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1592.73px' lengthAdjust='spacingAndGlyphs'>Compartir los métodos analíticos (e.g., scripts de análisis) en plataformas o repositorios públicos (2)</text>
-<text x='1932.67' y='846.98' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1915.00px' lengthAdjust='spacingAndGlyphs'>Poner los materiales (e.g., cuestionarios, procedimientos) a disposición mediante plataformas o repositorios públicos (2)</text>
-<text x='1932.67' y='708.89' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='662.35px' lengthAdjust='spacingAndGlyphs'>Publicar en revistas de acceso abierto (2)</text>
-<text x='1932.67' y='570.80' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1036.55px' lengthAdjust='spacingAndGlyphs'>Participar en proyectos abiertos y colaborativos a gran escala (2)</text>
-<text x='1932.67' y='432.71' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1404.81px' lengthAdjust='spacingAndGlyphs'>Poner datos recolectados a disposición mediante plataformas o repositorios públicos (2)</text>
-<text x='1932.67' y='294.62' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1763.09px' lengthAdjust='spacingAndGlyphs'>Reportar toda la información necesaria detalladamente para que otras personas puedan replicar mi estudio (2)</text>
-<text x='1932.67' y='156.53' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='470.25px' lengthAdjust='spacingAndGlyphs'>Replicar un estudio previo (2)</text>
-<line x1='2132.08' y1='1607.40' x2='2132.08' y2='1613.07' style='stroke-width: 0.75;' />
-<line x1='2371.60' y1='1607.40' x2='2371.60' y2='1613.07' style='stroke-width: 0.75;' />
-<line x1='2611.13' y1='1607.40' x2='2611.13' y2='1613.07' style='stroke-width: 0.75;' />
-<line x1='2850.65' y1='1607.40' x2='2850.65' y2='1613.07' style='stroke-width: 0.75;' />
-<line x1='3090.17' y1='1607.40' x2='3090.17' y2='1613.07' style='stroke-width: 0.75;' />
-<line x1='3329.69' y1='1607.40' x2='3329.69' y2='1613.07' style='stroke-width: 0.75;' />
-<line x1='3569.21' y1='1607.40' x2='3569.21' y2='1613.07' style='stroke-width: 0.75;' />
-<text x='2132.08' y='1644.51' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='40.05px' lengthAdjust='spacingAndGlyphs'>20</text>
-<text x='2371.60' y='1644.51' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='20.02px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='2611.13' y='1644.51' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='40.05px' lengthAdjust='spacingAndGlyphs'>20</text>
-<text x='2850.65' y='1644.51' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='40.05px' lengthAdjust='spacingAndGlyphs'>40</text>
-<text x='3090.17' y='1644.51' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='40.05px' lengthAdjust='spacingAndGlyphs'>60</text>
-<text x='3329.69' y='1644.51' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='40.05px' lengthAdjust='spacingAndGlyphs'>80</text>
-<text x='3569.21' y='1644.51' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='60.07px' lengthAdjust='spacingAndGlyphs'>100</text>
+<g>
+	<defs>
+		<rect id="SVGID_5_" width="3600" height="1800"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st6">
+		<line class="st7" x1="2132.1" y1="60.8" x2="2132.1" y2="55.1"/>
+		<line class="st7" x1="2371.6" y1="60.8" x2="2371.6" y2="55.1"/>
+		<line class="st7" x1="2611.1" y1="60.8" x2="2611.1" y2="55.1"/>
+		<line class="st7" x1="2850.6" y1="60.8" x2="2850.6" y2="55.1"/>
+		<line class="st7" x1="3090.2" y1="60.8" x2="3090.2" y2="55.1"/>
+		<line class="st7" x1="3329.7" y1="60.8" x2="3329.7" y2="55.1"/>
+		<line class="st7" x1="3569.2" y1="60.8" x2="3569.2" y2="55.1"/>
+		<rect x="548" y="1506.5" class="st2" width="1384.8" height="42.6"/>
+		<text transform="matrix(1 0 0 1 547.9707 1537.4297)" class="st8"><tspan x="0" y="0" class="st5 st4">Compartir</tspan><tspan x="158" y="0" class="st5 st4 st9"> </tspan><tspan x="174" y="0" class="st5 st4">una</tspan><tspan x="234.1" y="0" class="st5 st4 st9"> </tspan><tspan x="250.1" y="0" class="st5 st4">pre-impresión</tspan><tspan x="470.2" y="0" class="st5 st4 st9"> </tspan><tspan x="486.2" y="0" class="st5 st4">(pre-print)</tspan><tspan x="644.2" y="0" class="st5 st4 st9"> </tspan><tspan x="660.2" y="0" class="st5 st4">publicándola</tspan><tspan x="862.4" y="0" class="st5 st4 st9"> </tspan><tspan x="878.4" y="0" class="st5 st4">en</tspan><tspan x="918.4" y="0" class="st5 st4 st9"> </tspan><tspan x="934.5" y="0" class="st5 st4">un</tspan><tspan x="974.5" y="0" class="st5 st4 st9"> </tspan><tspan x="990.5" y="0" class="st5 st4">repositorio</tspan><tspan x="1158.6" y="0" class="st5 st4 st9"> </tspan><tspan x="1174.6" y="0" class="st5 st4">de</tspan><tspan x="1214.6" y="0" class="st5 st4 st9"> </tspan><tspan x="1230.7" y="0" class="st5 st4">confianza</tspan></text>
+		<rect x="872.1" y="1368.4" class="st2" width="1060.6" height="42.6"/>
+		<text transform="matrix(1 0 0 1 872.1289 1399.3398)" class="st8"><tspan x="0" y="0" class="st5 st4">Pre-registrar</tspan><tspan x="200" y="0" class="st5 st4 st9"> </tspan><tspan x="216" y="0" class="st5 st4">un</tspan><tspan x="256.1" y="0" class="st5 st4 st9"> </tspan><tspan x="272.1" y="0" class="st5 st4">estudio</tspan><tspan x="388.2" y="0" class="st5 st4 st9"> </tspan><tspan x="404.2" y="0" class="st5 st4">antes</tspan><tspan x="492.3" y="0" class="st5 st4 st9"> </tspan><tspan x="508.3" y="0" class="st5 st4">de</tspan><tspan x="548.3" y="0" class="st5 st4 st9"> </tspan><tspan x="564.3" y="0" class="st5 st4">iniciar</tspan><tspan x="658.3" y="0" class="st5 st4 st9"> </tspan><tspan x="674.3" y="0" class="st5 st4">la</tspan><tspan x="702.4" y="0" class="st5 st4 st9"> </tspan><tspan x="718.4" y="0" class="st5 st4">recolección</tspan><tspan x="900.5" y="0" class="st5 st4 st9"> </tspan><tspan x="916.5" y="0" class="st5 st4">de</tspan><tspan x="956.5" y="0" class="st5 st4 st9"> </tspan><tspan x="972.5" y="0" class="st5 st4">datos</tspan></text>
+		<rect x="1376.4" y="1230.4" class="st2" width="556.2" height="42.6"/>
+		<text transform="matrix(1 0 0 1 1376.4453 1261.25)" class="st8"><tspan x="0" y="0" class="st5 st4">Usar</tspan><tspan x="76" y="0" class="st5 st4 st10"> </tspan><tspan x="99.5" y="0" class="st5 st4">revisión</tspan><tspan x="223.6" y="0" class="st5 st4 st10"> </tspan><tspan x="247.1" y="0" class="st5 st4">por</tspan><tspan x="299.1" y="0" class="st5 st4 st10"> </tspan><tspan x="322.6" y="0" class="st5 st4">partes</tspan><tspan x="422.7" y="0" class="st5 st4 st10"> </tspan><tspan x="446.2" y="0" class="st5 st4">abierta</tspan></text>
+		<text transform="matrix(1 0 0 1 1422.4474 1123.16)" class="st5 st4">      Adaptar un test psicométrico</text>
+		<rect x="340" y="954.2" class="st2" width="1592.7" height="42.6"/>
+		<text transform="matrix(1 0 0 1 339.9863 985.0703)" class="st8"><tspan x="0" y="0" class="st5 st4">Compartir</tspan><tspan x="158" y="0" class="st5 st4 st11"> </tspan><tspan x="172.5" y="0" class="st5 st4">los</tspan><tspan x="218.6" y="0" class="st5 st4 st11"> </tspan><tspan x="233.1" y="0" class="st5 st4">métodos</tspan><tspan x="371.1" y="0" class="st5 st4 st11"> </tspan><tspan x="385.6" y="0" class="st5 st4">analíticos</tspan><tspan x="537.7" y="0" class="st5 st4 st11"> </tspan><tspan x="552.2" y="0" class="st5 st4">(e.g.,</tspan><tspan x="634.3" y="0" class="st5 st4 st11"> </tspan><tspan x="648.8" y="0" class="st5 st4">scripts</tspan><tspan x="752.8" y="0" class="st5 st4 st11"> </tspan><tspan x="767.3" y="0" class="st5 st4">de</tspan><tspan x="807.3" y="0" class="st5 st4 st11"> </tspan><tspan x="821.8" y="0" class="st5 st4">análisis)</tspan><tspan x="953.9" y="0" class="st5 st4 st11"> </tspan><tspan x="968.4" y="0" class="st5 st4">en</tspan><tspan x="1008.4" y="0" class="st5 st4 st11"> </tspan><tspan x="1022.9" y="0" class="st5 st4">plataformas</tspan><tspan x="1211" y="0" class="st5 st4 st11"> </tspan><tspan x="1225.5" y="0" class="st5 st4">o</tspan><tspan x="1245.6" y="0" class="st5 st4 st11"> </tspan><tspan x="1260.1" y="0" class="st5 st4">repositorios</tspan><tspan x="1446.1" y="0" class="st5 st4 st11"> </tspan><tspan x="1460.6" y="0" class="st5 st4">públicos</tspan></text>
+		<rect x="17.7" y="816.1" class="st2" width="1915" height="42.6"/>
+		<text transform="matrix(1 0 0 1 17.7441 846.9795)" class="st8"><tspan x="0" y="0" class="st5 st4">Poner</tspan><tspan x="96.1" y="0" class="st5 st4 st11"> </tspan><tspan x="110.6" y="0" class="st5 st4">los</tspan><tspan x="156.6" y="0" class="st5 st4 st11"> </tspan><tspan x="171.1" y="0" class="st5 st4">materiales</tspan><tspan x="337.2" y="0" class="st5 st4 st11"> </tspan><tspan x="351.7" y="0" class="st5 st4">(e.g.,</tspan><tspan x="433.7" y="0" class="st5 st4 st11"> </tspan><tspan x="448.2" y="0" class="st5 st4">cuestionarios,</tspan><tspan x="670.3" y="0" class="st5 st4 st11"> </tspan><tspan x="684.8" y="0" class="st5 st4">procedimientos)</tspan><tspan x="941" y="0" class="st5 st4 st11"> </tspan><tspan x="955.5" y="0" class="st5 st4">a</tspan><tspan x="975.5" y="0" class="st5 st4 st11"> </tspan><tspan x="990" y="0" class="st5 st4">disposición</tspan><tspan x="1168.1" y="0" class="st5 st4 st11"> </tspan><tspan x="1182.6" y="0" class="st5 st4">mediante</tspan><tspan x="1330.7" y="0" class="st5 st4 st11"> </tspan><tspan x="1345.2" y="0" class="st5 st4">plataformas</tspan><tspan x="1533.3" y="0" class="st5 st4 st11"> </tspan><tspan x="1547.8" y="0" class="st5 st4">o</tspan><tspan x="1567.8" y="0" class="st5 st4 st11"> </tspan><tspan x="1582.3" y="0" class="st5 st4">repositorios</tspan><tspan x="1768.4" y="0" class="st5 st4 st11"> </tspan><tspan x="1782.9" y="0" class="st5 st4">públicos</tspan></text>
+		<rect x="1270.3" y="678" class="st2" width="662.3" height="42.6"/>
+		<text transform="matrix(1 0 0 1 1270.3438 708.8896)" class="st8"><tspan x="0" y="0" class="st5 st4">Publicar</tspan><tspan x="130.1" y="0" class="st5 st4 st12"> </tspan><tspan x="150.9" y="0" class="st5 st4">en</tspan><tspan x="190.9" y="0" class="st5 st4 st12"> </tspan><tspan x="211.7" y="0" class="st5 st4">revistas</tspan><tspan x="335.7" y="0" class="st5 st4 st12"> </tspan><tspan x="356.6" y="0" class="st5 st4">de</tspan><tspan x="396.6" y="0" class="st5 st4 st12"> </tspan><tspan x="417.4" y="0" class="st5 st4">acceso</tspan><tspan x="531.5" y="0" class="st5 st4 st12"> </tspan><tspan x="552.3" y="0" class="st5 st4">abierto</tspan></text>
+		<rect x="896.2" y="539.9" class="st2" width="1036.6" height="42.6"/>
+		<text transform="matrix(1 0 0 1 896.1582 570.7998)" class="st8"><tspan x="0" y="0" class="st5 st4">Participar</tspan><tspan x="152.1" y="0" class="st5 st4 st9"> </tspan><tspan x="168.8" y="0" class="st5 st4">en</tspan><tspan x="208.9" y="0" class="st5 st4 st9"> </tspan><tspan x="225.6" y="0" class="st5 st4">proyectos</tspan><tspan x="381.7" y="0" class="st5 st4 st9"> </tspan><tspan x="398.4" y="0" class="st5 st4">abiertos</tspan><tspan x="526.5" y="0" class="st5 st4 st9"> </tspan><tspan x="543.3" y="0" class="st5 st4">y</tspan><tspan x="561.3" y="0" class="st5 st4 st9"> </tspan><tspan x="578" y="0" class="st5 st4">colaborativos</tspan><tspan x="790.1" y="0" class="st5 st4 st9"> </tspan><tspan x="806.9" y="0" class="st5 st4">a</tspan><tspan x="826.9" y="0" class="st5 st4 st9"> </tspan><tspan x="843.7" y="0" class="st5 st4">gran</tspan><tspan x="915.7" y="0" class="st5 st4 st9"> </tspan><tspan x="932.5" y="0" class="st5 st4">escala</tspan></text>
+		<rect x="527.9" y="401.8" class="st2" width="1404.8" height="42.6"/>
+		<text transform="matrix(1 0 0 1 527.9141 432.71)" class="st8"><tspan x="0" y="0" class="st5 st4">Poner</tspan><tspan x="96.1" y="0" class="st5 st4 st9"> </tspan><tspan x="112.1" y="0" class="st5 st4">datos</tspan><tspan x="200.1" y="0" class="st5 st4 st9"> </tspan><tspan x="216.1" y="0" class="st5 st4">recolectados</tspan><tspan x="420.3" y="0" class="st5 st4 st9"> </tspan><tspan x="436.3" y="0" class="st5 st4">a</tspan><tspan x="456.3" y="0" class="st5 st4 st9"> </tspan><tspan x="472.3" y="0" class="st5 st4">disposición</tspan><tspan x="650.4" y="0" class="st5 st4 st9"> </tspan><tspan x="666.4" y="0" class="st5 st4">mediante</tspan><tspan x="814.5" y="0" class="st5 st4 st9"> </tspan><tspan x="830.5" y="0" class="st5 st4">plataformas</tspan><tspan x="1018.6" y="0" class="st5 st4 st9"> </tspan><tspan x="1034.6" y="0" class="st5 st4">o</tspan><tspan x="1054.6" y="0" class="st5 st4 st9"> </tspan><tspan x="1070.6" y="0" class="st5 st4">repositorios</tspan><tspan x="1256.7" y="0" class="st5 st4 st9"> </tspan><tspan x="1272.7" y="0" class="st5 st4">públicos</tspan></text>
+		<rect x="169.7" y="263.7" class="st2" width="1763.1" height="42.6"/>
+		<text transform="matrix(1 0 0 1 169.6543 294.6201)" class="st8"><tspan x="0" y="0" class="st5 st4">Reportar</tspan><tspan x="140.1" y="0" class="st5 st4 st11"> </tspan><tspan x="154.2" y="0" class="st5 st4">toda</tspan><tspan x="224.3" y="0" class="st5 st4 st11"> </tspan><tspan x="238.5" y="0" class="st5 st4">la</tspan><tspan x="266.5" y="0" class="st5 st4 st11"> </tspan><tspan x="280.6" y="0" class="st5 st4">información</tspan><tspan x="466.7" y="0" class="st5 st4 st11"> </tspan><tspan x="480.9" y="0" class="st5 st4">necesaria</tspan><tspan x="637" y="0" class="st5 st4 st11"> </tspan><tspan x="651.1" y="0" class="st5 st4">detalladamente</tspan><tspan x="897.3" y="0" class="st5 st4 st11"> </tspan><tspan x="911.5" y="0" class="st5 st4">para</tspan><tspan x="983.5" y="0" class="st5 st4 st11"> </tspan><tspan x="997.7" y="0" class="st5 st4">que</tspan><tspan x="1057.8" y="0" class="st5 st4 st11"> </tspan><tspan x="1071.9" y="0" class="st5 st4">otras</tspan><tspan x="1151.9" y="0" class="st5 st4 st11"> </tspan><tspan x="1166.1" y="0" class="st5 st4">personas</tspan><tspan x="1314.2" y="0" class="st5 st4 st11"> </tspan><tspan x="1328.4" y="0" class="st5 st4">puedan</tspan><tspan x="1448.5" y="0" class="st5 st4 st11"> </tspan><tspan x="1462.7" y="0" class="st5 st4">replicar</tspan><tspan x="1580.7" y="0" class="st5 st4 st11"> </tspan><tspan x="1594.9" y="0" class="st5 st4">mi</tspan><tspan x="1632.8" y="0" class="st5 st4 st11"> </tspan><tspan x="1647" y="0" class="st5 st4">estudio</tspan></text>
+		<rect x="1462.4" y="125.6" class="st2" width="470.3" height="42.6"/>
+		<text transform="matrix(1 0 0 1 1462.4375 156.5298)" class="st8"><tspan x="0" y="0" class="st5 st4">Replicar</tspan><tspan x="132" y="0" class="st5 st4 st13"> </tspan><tspan x="160.1" y="0" class="st5 st4">un</tspan><tspan x="200.1" y="0" class="st5 st4 st13"> </tspan><tspan x="228.1" y="0" class="st5 st4">estudio</tspan><tspan x="344.2" y="0" class="st5 st4 st13"> </tspan><tspan x="372.2" y="0" class="st5 st4">previo</tspan></text>
+		<line class="st7" x1="2132.1" y1="1607.4" x2="2132.1" y2="1613.1"/>
+		<line class="st7" x1="2371.6" y1="1607.4" x2="2371.6" y2="1613.1"/>
+		<line class="st7" x1="2611.1" y1="1607.4" x2="2611.1" y2="1613.1"/>
+		<line class="st7" x1="2850.6" y1="1607.4" x2="2850.6" y2="1613.1"/>
+		<line class="st7" x1="3090.2" y1="1607.4" x2="3090.2" y2="1613.1"/>
+		<line class="st7" x1="3329.7" y1="1607.4" x2="3329.7" y2="1613.1"/>
+		<line class="st7" x1="3569.2" y1="1607.4" x2="3569.2" y2="1613.1"/>
+		<rect x="2112.1" y="1613.6" class="st2" width="40" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2112.0586 1644.5098)" class="st5 st4">20</text>
+		<text transform="matrix(1 0 0 1 2361.5894 1644.51)" class="st5 st4">0</text>
+		<rect x="2591.1" y="1613.6" class="st2" width="40" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2591.1084 1644.5098)" class="st5 st4">20</text>
+		<rect x="2830.6" y="1613.6" class="st2" width="40" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2830.6289 1644.5098)" class="st5 st4">40</text>
+		<rect x="3070.1" y="1613.6" class="st2" width="40" height="42.6"/>
+		<text transform="matrix(1 0 0 1 3070.1484 1644.5098)" class="st5 st4">60</text>
+		<rect x="3309.7" y="1613.6" class="st2" width="40" height="42.6"/>
+		<text transform="matrix(1 0 0 1 3309.668 1644.5098)" class="st5 st4">80</text>
+		<rect x="3539.2" y="1613.6" class="st2" width="60.1" height="42.6"/>
+		<text transform="matrix(1 0 0 1 3539.1777 1644.5098)" class="st5 st4">100</text>
+	</g>
 </g>
-<g clip-path='url(#cpMTkzOC4zNHwzNTc2LjY2fDYwLjc4fDE2MDcuNDA=)'>
-<line x1='2371.60' y1='1607.40' x2='2371.60' y2='60.78' style='stroke-width: 0.75; stroke: #A6A6A6;' />
-<rect x='2371.60' y='1478.51' width='66.53' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2438.14' y='1478.51' width='345.97' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2784.11' y='1478.51' width='412.51' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2305.07' y='1478.51' width='66.53' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2078.86' y='1478.51' width='226.21' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='1999.02' y='1478.51' width='79.84' height='92.06' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
-<rect x='2371.60' y='1340.42' width='139.72' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2511.32' y='1340.42' width='465.74' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2977.06' y='1340.42' width='266.13' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2231.88' y='1340.42' width='139.72' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2112.12' y='1340.42' width='119.76' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2045.59' y='1340.42' width='66.53' height='92.06' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
-<rect x='2371.60' y='1202.33' width='106.45' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2478.06' y='1202.33' width='359.28' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2837.34' y='1202.33' width='465.74' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2265.15' y='1202.33' width='106.45' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2118.78' y='1202.33' width='146.37' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2105.47' y='1202.33' width='13.31' height='92.06' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
-<rect x='2371.60' y='1064.24' width='46.57' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2418.18' y='1064.24' width='266.13' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2684.31' y='1064.24' width='652.03' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2325.03' y='1064.24' width='46.57' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2178.66' y='1064.24' width='146.37' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2138.74' y='1064.24' width='39.92' height='92.06' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
-<rect x='2371.60' y='926.15' width='46.57' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2418.18' y='926.15' width='319.36' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2737.54' y='926.15' width='691.95' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2325.03' y='926.15' width='46.57' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2245.19' y='926.15' width='79.84' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2231.88' y='926.15' width='13.31' height='92.06' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
-<rect x='2371.60' y='788.06' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2398.22' y='788.06' width='266.13' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2664.35' y='788.06' width='798.40' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2344.99' y='788.06' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2278.46' y='788.06' width='66.53' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2265.15' y='788.06' width='13.31' height='92.06' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
-<rect x='2371.60' y='649.97' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2398.22' y='649.97' width='212.91' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2611.13' y='649.97' width='864.94' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2344.99' y='649.97' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2291.76' y='649.97' width='53.23' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2278.46' y='649.97' width='13.31' height='92.06' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
-<rect x='2371.60' y='511.88' width='53.23' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2424.83' y='511.88' width='345.97' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2770.81' y='511.88' width='705.26' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2318.38' y='511.88' width='53.23' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2278.46' y='511.88' width='39.92' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2371.60' y='373.79' width='39.92' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2411.52' y='373.79' width='412.51' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2824.03' y='373.79' width='665.34' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2331.68' y='373.79' width='39.92' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2291.76' y='373.79' width='39.92' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2371.60' y='235.70' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2398.22' y='235.70' width='172.99' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='2571.20' y='235.70' width='931.47' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2344.99' y='235.70' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2305.07' y='235.70' width='39.92' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
-<rect x='2371.60' y='97.61' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2398.22' y='97.61' width='612.11' height='92.06' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
-<rect x='3010.33' y='97.61' width='505.66' height='92.06' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
-<rect x='2344.99' y='97.61' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
-<rect x='2318.38' y='97.61' width='26.61' height='92.06' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<g>
+	<defs>
+		<rect id="SVGID_7_" x="1938.3" y="60.8" width="1638.3" height="1546.6"/>
+	</defs>
+	<clipPath id="SVGID_8_">
+		<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st14">
+		<line class="st15" x1="2371.6" y1="1607.4" x2="2371.6" y2="60.8"/>
+		<rect x="2371.6" y="1478.5" class="st16" width="66.5" height="92.1"/>
+		<rect x="2438.1" y="1478.5" class="st17" width="346" height="92.1"/>
+		<rect x="2784.1" y="1478.5" class="st18" width="412.5" height="92.1"/>
+		<rect x="2305.1" y="1478.5" class="st16" width="66.5" height="92.1"/>
+		<rect x="2078.9" y="1478.5" class="st19" width="226.2" height="92.1"/>
+		<rect x="1999" y="1478.5" class="st20" width="79.8" height="92.1"/>
+		<rect x="2371.6" y="1340.4" class="st16" width="139.7" height="92.1"/>
+		<rect x="2511.3" y="1340.4" class="st17" width="465.7" height="92.1"/>
+		<rect x="2977.1" y="1340.4" class="st18" width="266.1" height="92.1"/>
+		<rect x="2231.9" y="1340.4" class="st16" width="139.7" height="92.1"/>
+		<rect x="2112.1" y="1340.4" class="st19" width="119.8" height="92.1"/>
+		<rect x="2045.6" y="1340.4" class="st20" width="66.5" height="92.1"/>
+		<rect x="2371.6" y="1202.3" class="st16" width="106.4" height="92.1"/>
+		<rect x="2478.1" y="1202.3" class="st17" width="359.3" height="92.1"/>
+		<rect x="2837.3" y="1202.3" class="st18" width="465.7" height="92.1"/>
+		<rect x="2265.1" y="1202.3" class="st16" width="106.4" height="92.1"/>
+		<rect x="2118.8" y="1202.3" class="st19" width="146.4" height="92.1"/>
+		<rect x="2105.5" y="1202.3" class="st20" width="13.3" height="92.1"/>
+		<rect x="2371.6" y="1064.2" class="st16" width="46.6" height="92.1"/>
+		<rect x="2418.2" y="1064.2" class="st17" width="266.1" height="92.1"/>
+		<rect x="2684.3" y="1064.2" class="st18" width="652" height="92.1"/>
+		<rect x="2325" y="1064.2" class="st16" width="46.6" height="92.1"/>
+		<rect x="2178.7" y="1064.2" class="st19" width="146.4" height="92.1"/>
+		<rect x="2138.7" y="1064.2" class="st20" width="39.9" height="92.1"/>
+		<rect x="2371.6" y="926.2" class="st16" width="46.6" height="92.1"/>
+		<rect x="2418.2" y="926.2" class="st17" width="319.4" height="92.1"/>
+		<rect x="2737.5" y="926.2" class="st18" width="691.9" height="92.1"/>
+		<rect x="2325" y="926.2" class="st16" width="46.6" height="92.1"/>
+		<rect x="2245.2" y="926.2" class="st19" width="79.8" height="92.1"/>
+		<rect x="2231.9" y="926.2" class="st20" width="13.3" height="92.1"/>
+		<rect x="2371.6" y="788.1" class="st16" width="26.6" height="92.1"/>
+		<rect x="2398.2" y="788.1" class="st17" width="266.1" height="92.1"/>
+		<rect x="2664.4" y="788.1" class="st18" width="798.4" height="92.1"/>
+		<rect x="2345" y="788.1" class="st16" width="26.6" height="92.1"/>
+		<rect x="2278.5" y="788.1" class="st19" width="66.5" height="92.1"/>
+		<rect x="2265.1" y="788.1" class="st20" width="13.3" height="92.1"/>
+		<rect x="2371.6" y="650" class="st16" width="26.6" height="92.1"/>
+		<rect x="2398.2" y="650" class="st17" width="212.9" height="92.1"/>
+		<rect x="2611.1" y="650" class="st18" width="864.9" height="92.1"/>
+		<rect x="2345" y="650" class="st16" width="26.6" height="92.1"/>
+		<rect x="2291.8" y="650" class="st19" width="53.2" height="92.1"/>
+		<rect x="2278.5" y="650" class="st20" width="13.3" height="92.1"/>
+		<rect x="2371.6" y="511.9" class="st16" width="53.2" height="92.1"/>
+		<rect x="2424.8" y="511.9" class="st17" width="346" height="92.1"/>
+		<rect x="2770.8" y="511.9" class="st18" width="705.3" height="92.1"/>
+		<rect x="2318.4" y="511.9" class="st16" width="53.2" height="92.1"/>
+		<rect x="2278.5" y="511.9" class="st19" width="39.9" height="92.1"/>
+		<rect x="2371.6" y="373.8" class="st16" width="39.9" height="92.1"/>
+		<rect x="2411.5" y="373.8" class="st17" width="412.5" height="92.1"/>
+		<rect x="2824" y="373.8" class="st18" width="665.3" height="92.1"/>
+		<rect x="2331.7" y="373.8" class="st16" width="39.9" height="92.1"/>
+		<rect x="2291.8" y="373.8" class="st19" width="39.9" height="92.1"/>
+		<rect x="2371.6" y="235.7" class="st16" width="26.6" height="92.1"/>
+		<rect x="2398.2" y="235.7" class="st17" width="173" height="92.1"/>
+		<rect x="2571.2" y="235.7" class="st18" width="931.5" height="92.1"/>
+		<rect x="2345" y="235.7" class="st16" width="26.6" height="92.1"/>
+		<rect x="2305.1" y="235.7" class="st19" width="39.9" height="92.1"/>
+		<rect x="2371.6" y="97.6" class="st16" width="26.6" height="92.1"/>
+		<rect x="2398.2" y="97.6" class="st17" width="612.1" height="92.1"/>
+		<rect x="3010.3" y="97.6" class="st18" width="505.7" height="92.1"/>
+		<rect x="2345" y="97.6" class="st16" width="26.6" height="92.1"/>
+		<rect x="2318.4" y="97.6" class="st19" width="26.6" height="92.1"/>
+	</g>
 </g>
-<g clip-path='url(#cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA==)'>
-<rect x='1938.34' y='60.78' width='1638.32' height='1546.61' style='stroke-width: 0.75;' />
-<rect x='2019.63' y='1681.96' width='1475.73' height='106.04' style='stroke-width: 0.75; stroke: none;' />
-<text x='2021.63' y='1786.55' style='font-size: 36.00px; font-family: Arial;' textLength='266.16px' lengthAdjust='spacingAndGlyphs'>Nada importante</text>
-<text x='2329.19' y='1786.55' style='font-size: 36.00px; font-family: Arial;' textLength='262.15px' lengthAdjust='spacingAndGlyphs'>Poco importante</text>
-<text x='2632.75' y='1786.55' style='font-size: 36.00px; font-family: Arial;' textLength='94.05px' lengthAdjust='spacingAndGlyphs'>No sé</text>
-<text x='2768.20' y='1786.55' style='font-size: 36.00px; font-family: Arial;' textLength='418.26px' lengthAdjust='spacingAndGlyphs'>Medianamente importante</text>
-<text x='3227.87' y='1786.55' style='font-size: 36.00px; font-family: Arial;' textLength='248.10px' lengthAdjust='spacingAndGlyphs'>Muy importante</text>
-<rect x='2291.82' y='1759.33' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #E16A86;' />
-<rect x='2595.38' y='1759.33' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #E79AA9;' />
-<rect x='2730.83' y='1759.33' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #E2E2E2;' />
-<rect x='3190.49' y='1759.33' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #A2ACE5;' />
-<rect x='3480.01' y='1759.33' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #768BE6;' />
+<g>
+	<defs>
+		<rect id="SVGID_9_" width="3600" height="1800"/>
+	</defs>
+	<clipPath id="SVGID_10_">
+		<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st21">
+		<rect x="1938.3" y="60.8" class="st7" width="1638.3" height="1546.6"/>
+		<rect x="2019.6" y="1682" class="st2" width="1475.7" height="106"/>
+		<rect x="2021.6" y="1755.7" class="st2" width="266.2" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2021.6299 1786.5498)" class="st5 st4">Nada importante</text>
+		<rect x="2329.2" y="1755.7" class="st2" width="262.1" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2329.1895 1786.5498)" class="st5 st4">Poco importante</text>
+		<rect x="2632.8" y="1755.7" class="st2" width="94.1" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2632.75 1786.5498)" class="st5 st4">No sé</text>
+		<rect x="2768.2" y="1755.7" class="st2" width="418.3" height="42.6"/>
+		<text transform="matrix(1 0 0 1 2768.2002 1786.5498)" class="st5 st4">Medianamente importante</text>
+		<rect x="3227.9" y="1755.7" class="st2" width="248.1" height="42.6"/>
+		<text transform="matrix(1 0 0 1 3227.8701 1786.5498)" class="st5 st4">Muy importante</text>
+		<rect x="2291.8" y="1759.3" class="st22" width="13.4" height="28.7"/>
+		<rect x="2595.4" y="1759.3" class="st23" width="13.4" height="28.7"/>
+		<rect x="2730.8" y="1759.3" class="st24" width="13.4" height="28.7"/>
+		<rect x="3190.5" y="1759.3" class="st25" width="13.4" height="28.7"/>
+		<rect x="3480" y="1759.3" class="st26" width="13.4" height="28.7"/>
+	</g>
 </g>
 </svg>
