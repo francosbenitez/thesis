@@ -2,9 +2,9 @@
 title: "Exploratory analysis of Perceptions about Replicability Crisis and Open Science"
 output: html_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(dev = "png",
+## Setup
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(dev = "svg",
                       fig.path = "../images/",
                       dpi = 300)
 ```
