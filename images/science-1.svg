@@ -18,9 +18,9 @@
 	.st12{fill:#768BE6;stroke:#768BE6;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st13{fill:#E79AA9;stroke:#E79AA9;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st14{fill:#E16A86;stroke:#E16A86;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st15{fill:#E16A86;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st16{fill:#E79AA9;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st17{fill:#E2E2E2;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{fill:#E2E2E2;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st16{fill:#E16A86;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st17{fill:#E79AA9;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st18{fill:#A2ACE5;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st19{fill:#768BE6;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
@@ -213,22 +213,28 @@
 	</g>
 </g>
 <rect x="2771.3" y="1610" class="st2" width="276.2" height="42.6"/>
-<text transform="matrix(1 0 0 1 2771.2522 1640.9092)" class="st5 st4">Nada de acuerdo</text>
-<rect x="3107.6" y="1613.7" class="st15" width="13.4" height="28.7"/>
-<g>
-	<text transform="matrix(1 0 0 1 2771.2524 1688.4921)" class="st5 st4">Algo de acuerdo</text>
-	<rect x="3107.6" y="1661.3" class="st16" width="13.4" height="28.7"/>
-</g>
 <rect x="2771.3" y="1705.2" class="st2" width="94.1" height="42.6"/>
-<text transform="matrix(1 0 0 1 2771.2522 1736.0751)" class="st5 st4">No sé</text>
-<rect x="3107.6" y="1708.9" class="st17" width="13.4" height="28.7"/>
 <rect x="3151.8" y="1607.5" class="st2" width="332.3" height="42.6"/>
-<text transform="matrix(1 0 0 1 3151.7996 1638.4089)" class="st5 st4">Bastante de acuerdo</text>
-<rect x="3544.1" y="1611.2" class="st18" width="13.4" height="28.7"/>
 <rect x="3151.8" y="1655.1" class="st2" width="258.2" height="42.6"/>
-<text transform="matrix(1 0 0 1 3151.7996 1685.9918)" class="st5 st4">Muy de acuerdo</text>
 <g>
-	<rect x="3544.1" y="1658.8" class="st19" width="13.4" height="28.7"/>
+	<g>
+		<text transform="matrix(1 0 0 1 3034.1355 1665.425)" class="st5 st4">No sé</text>
+		<rect x="3158.2" y="1638.3" class="st15" width="13.4" height="28.7"/>
+	</g>
+	<g>
+		<rect x="2984.5" y="1613.7" class="st16" width="13.4" height="28.7"/>
+		<text transform="matrix(1 0 0 1 2678.2522 1640.9092)" class="st5 st4">Nada de acuerdo</text>
+		<text transform="matrix(1 0 0 1 2678.2524 1688.4921)" class="st5 st4">Algo de acuerdo</text>
+		<rect x="2984.5" y="1661.3" class="st17" width="13.4" height="28.7"/>
+	</g>
+	<g>
+		<rect x="3570.1" y="1611.2" class="st18" width="13.4" height="28.7"/>
+		<text transform="matrix(1 0 0 1 3207.8567 1638.4089)" class="st5 st4">Bastante de acuerdo</text>
+		<text transform="matrix(1 0 0 1 3207.8567 1685.9918)" class="st5 st4">Muy de acuerdo</text>
+		<g>
+			<rect x="3570.1" y="1658.8" class="st19" width="13.4" height="28.7"/>
+		</g>
+	</g>
 </g>
 <rect class="st2" width="3600" height="1800"/>
 <rect x="2715.1" y="60.8" class="st7" width="861.6" height="1431.9"/>
