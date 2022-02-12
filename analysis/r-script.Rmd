@@ -144,7 +144,7 @@ likert(Measures ~ .,
        #panel=panel,
        ylab=NULL,
        xlab=list("Percent", cex=3),
-       auto.key=list(cex=3, columns=1),
+       auto.key=list(cex=3),
        scales=list(y=list(cex=3),
                             xlab=list(cex=3)
                    )
@@ -160,7 +160,7 @@ likert(Measures ~ .,
        #panel=panel,
        ylab=NULL,
        xlab=list("Percent", cex=3),
-       auto.key=list(cex=3, columns=1),
+       auto.key=list(cex=3),
        scales=list(y=list(cex=3),
                             xlab=list(cex=3)
                    )
