@@ -20,6 +20,13 @@ We load the tables.
 science <- read_csv("../data/cleaned/science.csv")
 experience <- read_csv("../data/cleaned/experience.csv")
 efficiency <- read_csv("../data/cleaned/efficiency.csv")
+
+
+confidence <- read_csv("../data/cleaned/confidence.csv")
+fallacies <- read_csv("../data/cleaned/fallacies.csv")
+novelty <- read_csv("../data/cleaned/novelty.csv")
+replication <- read_csv("../data/cleaned/replication.csv")
+statistics <- read_csv("../data/cleaned/statistics.csv")
 ```
 
 We add a function to set percentages in plots.
@@ -111,3 +118,84 @@ likert(Measures ~ .,
                    )
        )
 ```
+```{r confidence, out.width="100%", fig.height=25, fig.width=50}
+likert(Measures ~ .,
+       data=confidence,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Confidence", cex=3),
+       rightAxis=F,
+       #panel=panel,
+       ylab=NULL,
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3, columns=1),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
+                   )
+       )
+```
+```{r fallacies, out.width="100%", fig.height=25, fig.width=50}
+likert(Measures ~ .,
+       data=fallacies,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Fallacies", cex=3),
+       rightAxis=F,
+       #panel=panel,
+       ylab=NULL,
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3, columns=1),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
+                   )
+       )
+```
+```{r novelty, out.width="100%", fig.height=25, fig.width=50}
+likert(Measures ~ .,
+       data=novelty,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Novelty", cex=3),
+       rightAxis=F,
+       #panel=panel,
+       ylab=NULL,
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3, columns=1),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
+                   )
+       )
+```
+```{r replication, out.width="100%", fig.height=25, fig.width=50}
+likert(Measures ~ .,
+       data=replication,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Replication", cex=3),
+       rightAxis=F,
+       #panel=panel,
+       ylab=NULL,
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3, columns=1),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
+                   )
+       )
+```
+```{r statistics, out.width="100%", fig.height=25, fig.width=50}
+likert(Measures ~ .,
+       data=statistics,
+       as.percent=TRUE,
+       positive.order=TRUE,
+       main=list("Statistics", cex=3),
+       rightAxis=F,
+       #panel=panel,
+       ylab=NULL,
+       xlab=list("Percent", cex=3),
+       auto.key=list(cex=3, columns=1),
+       scales=list(y=list(cex=3),
+                            xlab=list(cex=3)
+                   )
+       )
+```
+

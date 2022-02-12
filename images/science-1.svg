@@ -1,242 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 3600 1800" style="enable-background:new 0 0 3600 1800;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{clip-path:url(#SVGID_2_);}
-	.st2{fill:none;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:36px;}
-	.st5{font-family:'ArialMT';}
-	.st6{clip-path:url(#SVGID_4_);}
-	.st7{fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st8{clip-path:url(#SVGID_6_);}
-	.st9{fill:none;stroke:#A6A6A6;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st10{fill:#E2E2E2;stroke:#E2E2E2;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st11{fill:#A2ACE5;stroke:#A2ACE5;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st12{fill:#768BE6;stroke:#768BE6;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st13{fill:#E79AA9;stroke:#E79AA9;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st14{fill:#E16A86;stroke:#E16A86;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st15{fill:#E2E2E2;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st16{fill:#E16A86;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st17{fill:#E79AA9;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st18{fill:#A2ACE5;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st19{fill:#768BE6;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<rect class="st0" width="3600" height="1800"/>
-<g>
-	<g>
-		<defs>
-			<rect id="SVGID_1_" width="3600" height="1800"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g class="st1">
-			<rect class="st2" width="3600" height="1800"/>
-			<text transform="matrix(1 0 0 1 1025.7275 31.78)" class="st3 st4">Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia</text>
-			<rect x="3083.8" y="1536.4" class="st2" width="124.1" height="42.6"/>
-			<text transform="matrix(1 0 0 1 3083.8369 1567.2803)" class="st5 st4">Percent</text>
-		</g>
-	</g>
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='3600.00pt' height='1800.00pt' viewBox='0 0 3600.00 1800.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA=='>
+    <rect x='0.00' y='0.00' width='3600.00' height='1800.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA==)'>
+<rect x='0.00' y='0.00' width='3600.00' height='1800.00' style='stroke-width: 0.75; stroke: none;' />
+<text x='1800.00' y='31.78' text-anchor='middle' style='font-size: 36.00px; font-weight: bold; font-family: Arial;' textLength='1548.54px' lengthAdjust='spacingAndGlyphs'>Valore cada una de las siguientes cuestiones relacionadas con su opinión sobre la ciencia</text>
+<text x='3145.87' y='1567.28' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='124.07px' lengthAdjust='spacingAndGlyphs'>Percent</text>
 </g>
-<g>
-	<g>
-		<defs>
-			<rect id="SVGID_3_" width="3600" height="1800"/>
-		</defs>
-		<clipPath id="SVGID_4_">
-			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-		</clipPath>
-		<g class="st6">
-			<line class="st7" x1="2717.6" y1="60.8" x2="2717.6" y2="55.1"/>
-			<line class="st7" x1="2958.5" y1="60.8" x2="2958.5" y2="55.1"/>
-			<line class="st7" x1="3199.4" y1="60.8" x2="3199.4" y2="55.1"/>
-			<line class="st7" x1="3440.4" y1="60.8" x2="3440.4" y2="55.1"/>
-			<rect x="852.4" y="1424.8" class="st2" width="1847.1" height="42.6"/>
-			<text transform="matrix(1 0 0 1 852.3809 1455.6504)" class="st5 st4">Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables</text>
-			<rect x="768.3" y="1341.5" class="st2" width="1931.2" height="42.6"/>
-			<text transform="matrix(1 0 0 1 768.3047 1372.4004)" class="st5 st4">No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original</text>
-			<rect x="460" y="1258.3" class="st2" width="2239.5" height="42.6"/>
-			<text transform="matrix(1 0 0 1 460.0371 1289.1504)" class="st5 st4">Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original</text>
-			<rect x="394" y="1175" class="st2" width="2305.5" height="42.6"/>
-			<text transform="matrix(1 0 0 1 394.0137 1205.9004)" class="st5 st4">Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados</text>
-			<rect x="7.8" y="1091.8" class="st2" width="2691.8" height="42.6"/>
-			<text transform="matrix(1 0 0 1 7.7871 1122.6504)" class="st5 st4">Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios</text>
-			<rect x="656.1" y="1008.5" class="st2" width="2043.4" height="42.6"/>
-			<text transform="matrix(1 0 0 1 656.1035 1039.3896)" class="st5 st4">La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones</text>
-			<rect x="1413.7" y="925.2" class="st2" width="1285.8" height="42.6"/>
-			<text transform="matrix(1 0 0 1 1413.6855 956.1396)" class="st5 st4">El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica</text>
-			<rect x="48.1" y="842" class="st2" width="2651.5" height="42.6"/>
-			<text transform="matrix(1 0 0 1 48.0586 872.8896)" class="st5 st4">Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos</text>
-			<rect x="1587.7" y="758.7" class="st2" width="1111.8" height="42.6"/>
-			<text transform="matrix(1 0 0 1 1587.709 789.6396)" class="st5 st4">El valor de p = .001 confirma que el tamaño del efecto ha sido grande</text>
-			<rect x="734.3" y="675.5" class="st2" width="1965.2" height="42.6"/>
-			<text transform="matrix(1 0 0 1 734.2734 706.3896)" class="st5 st4">Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos</text>
-			<rect x="296.2" y="592.2" class="st2" width="2403.4" height="42.6"/>
-			<text transform="matrix(1 0 0 1 296.1563 623.1299)" class="st5 st4">Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo</text>
-			<rect x="1580.8" y="509" class="st2" width="1118.6" height="42.6"/>
-			<text transform="matrix(1 0 0 1 1580.8184 539.8799)" class="st5 st4">Un resultado estadísticamente significativo es un resultado importante</text>
-			<rect x="1448.8" y="425.7" class="st2" width="1250.7" height="42.6"/>
-			<text transform="matrix(1 0 0 1 1448.7539 456.6299)" class="st5 st4">El principal objetivo de las revistas científicas es publicar hallazgos novedosos</text>
-			<rect x="690.2" y="342.5" class="st2" width="2009.3" height="42.6"/>
-			<text transform="matrix(1 0 0 1 690.2227 373.3799)" class="st5 st4">Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas</text>
-			<text transform="matrix(1 0 0 1 1076.5721 290.13)" class="st5 st4">A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos</text>
-			<rect x="1380.6" y="176" class="st2" width="1318.9" height="42.6"/>
-			<text transform="matrix(1 0 0 1 1380.6035 206.8701)" class="st5 st4">La realización de estudios de replicación es necesaria para el avance de la ciencia</text>
-			<rect x="134" y="92.7" class="st2" width="2565.5" height="42.6"/>
-			<text transform="matrix(1 0 0 1 133.998 123.6201)" class="st5 st4">Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática</text>
-			<line class="st7" x1="2717.6" y1="1492.7" x2="2717.6" y2="1498.4"/>
-			<line class="st7" x1="2958.5" y1="1492.7" x2="2958.5" y2="1498.4"/>
-			<line class="st7" x1="3199.4" y1="1492.7" x2="3199.4" y2="1498.4"/>
-			<line class="st7" x1="3440.4" y1="1492.7" x2="3440.4" y2="1498.4"/>
-			<rect x="2687.5" y="1498.9" class="st2" width="60.1" height="42.6"/>
-			<text transform="matrix(1 0 0 1 2687.5176 1529.8301)" class="st5 st4">100</text>
-			<rect x="2938.5" y="1498.9" class="st2" width="40" height="42.6"/>
-			<text transform="matrix(1 0 0 1 2938.459 1529.8301)" class="st5 st4">50</text>
-			<text transform="matrix(1 0 0 1 3189.3992 1529.83)" class="st5 st4">0</text>
-			<rect x="3420.3" y="1498.9" class="st2" width="40" height="42.6"/>
-			<text transform="matrix(1 0 0 1 3420.3281 1529.8301)" class="st5 st4">50</text>
-		</g>
-	</g>
+<defs>
+  <clipPath id='cpMjcxNS4wOXwzNTc2LjY2fDYwLjc4fDE0OTIuNzI='>
+    <rect x='2715.09' y='60.78' width='861.57' height='1431.93' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMjcxNS4wOXwzNTc2LjY2fDYwLjc4fDE0OTIuNzI=)'>
 </g>
-<g>
-	<g>
-		<defs>
-			<rect id="SVGID_5_" x="2715.1" y="60.8" width="861.6" height="1431.9"/>
-		</defs>
-		<clipPath id="SVGID_6_">
-			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-		</clipPath>
-		<g class="st8">
-			<line class="st9" x1="3199.4" y1="1492.7" x2="3199.4" y2="60.8"/>
-			<rect x="3199.4" y="1415" class="st10" width="13.4" height="55.5"/>
-			<rect x="3212.8" y="1415" class="st11" width="5.4" height="55.5"/>
-			<rect x="3218.1" y="1415" class="st12" width="10.7" height="55.5"/>
-			<rect x="3186" y="1415" class="st10" width="13.4" height="55.5"/>
-			<rect x="3084.3" y="1415" class="st13" width="101.7" height="55.5"/>
-			<rect x="2747" y="1415" class="st14" width="337.3" height="55.5"/>
-			<rect x="3199.4" y="1331.8" class="st10" width="37.5" height="55.5"/>
-			<rect x="3236.9" y="1331.8" class="st11" width="10.7" height="55.5"/>
-			<rect x="3161.9" y="1331.8" class="st10" width="37.5" height="55.5"/>
-			<rect x="3108.4" y="1331.8" class="st13" width="53.5" height="55.5"/>
-			<rect x="2765.7" y="1331.8" class="st14" width="342.7" height="55.5"/>
-			<rect x="3199.4" y="1248.5" class="st10" width="40.2" height="55.5"/>
-			<rect x="3239.6" y="1248.5" class="st11" width="10.7" height="55.5"/>
-			<rect x="3159.3" y="1248.5" class="st10" width="40.2" height="55.5"/>
-			<rect x="3073.6" y="1248.5" class="st13" width="85.7" height="55.5"/>
-			<rect x="2768.4" y="1248.5" class="st14" width="305.2" height="55.5"/>
-			<rect x="3199.4" y="1165.3" class="st10" width="16.1" height="55.5"/>
-			<rect x="3215.5" y="1165.3" class="st11" width="42.8" height="55.5"/>
-			<rect x="3258.3" y="1165.3" class="st12" width="5.4" height="55.5"/>
-			<rect x="3183.4" y="1165.3" class="st10" width="16.1" height="55.5"/>
-			<rect x="3028.1" y="1165.3" class="st13" width="155.3" height="55.5"/>
-			<rect x="2781.8" y="1165.3" class="st14" width="246.3" height="55.5"/>
-			<rect x="3199.4" y="1082" class="st10" width="10.7" height="55.5"/>
-			<rect x="3210.1" y="1082" class="st11" width="53.5" height="55.5"/>
-			<rect x="3263.7" y="1082" class="st12" width="10.7" height="55.5"/>
-			<rect x="3188.7" y="1082" class="st10" width="10.7" height="55.5"/>
-			<rect x="3001.3" y="1082" class="st13" width="187.4" height="55.5"/>
-			<rect x="2792.5" y="1082" class="st14" width="208.8" height="55.5"/>
-			<rect x="3199.4" y="998.8" class="st10" width="8" height="55.5"/>
-			<rect x="3207.4" y="998.8" class="st11" width="58.9" height="55.5"/>
-			<rect x="3266.3" y="998.8" class="st12" width="37.5" height="55.5"/>
-			<rect x="3191.4" y="998.8" class="st10" width="8" height="55.5"/>
-			<rect x="3036.1" y="998.8" class="st13" width="155.3" height="55.5"/>
-			<rect x="2821.9" y="998.8" class="st14" width="214.2" height="55.5"/>
-			<rect x="3199.4" y="915.5" class="st10" width="32.1" height="55.5"/>
-			<rect x="3231.5" y="915.5" class="st11" width="53.5" height="55.5"/>
-			<rect x="3285.1" y="915.5" class="st12" width="21.4" height="55.5"/>
-			<rect x="3167.3" y="915.5" class="st10" width="32.1" height="55.5"/>
-			<rect x="2985.3" y="915.5" class="st13" width="182" height="55.5"/>
-			<rect x="2824.6" y="915.5" class="st14" width="160.6" height="55.5"/>
-			<rect x="3199.4" y="832.3" class="st10" width="10.7" height="55.5"/>
-			<rect x="3210.1" y="832.3" class="st11" width="85.7" height="55.5"/>
-			<rect x="3295.8" y="832.3" class="st12" width="21.4" height="55.5"/>
-			<rect x="3188.7" y="832.3" class="st10" width="10.7" height="55.5"/>
-			<rect x="2974.5" y="832.3" class="st13" width="214.2" height="55.5"/>
-			<rect x="2835.3" y="832.3" class="st14" width="139.2" height="55.5"/>
-			<rect x="3199.4" y="749" class="st10" width="58.9" height="55.5"/>
-			<rect x="3258.3" y="749" class="st11" width="58.9" height="55.5"/>
-			<rect x="3317.2" y="749" class="st12" width="37.5" height="55.5"/>
-			<rect x="3140.5" y="749" class="st10" width="58.9" height="55.5"/>
-			<rect x="3038.8" y="749" class="st13" width="101.7" height="55.5"/>
-			<rect x="2872.8" y="749" class="st14" width="166" height="55.5"/>
-			<rect x="3199.4" y="665.8" class="st10" width="16.1" height="55.5"/>
-			<rect x="3215.5" y="665.8" class="st11" width="96.4" height="55.5"/>
-			<rect x="3311.9" y="665.8" class="st12" width="53.5" height="55.5"/>
-			<rect x="3183.4" y="665.8" class="st10" width="16.1" height="55.5"/>
-			<rect x="3092.3" y="665.8" class="st13" width="91" height="55.5"/>
-			<rect x="2883.5" y="665.8" class="st14" width="208.8" height="55.5"/>
-			<rect x="3199.4" y="582.5" class="st10" width="13.4" height="55.5"/>
-			<rect x="3212.8" y="582.5" class="st11" width="107.1" height="55.5"/>
-			<rect x="3319.9" y="582.5" class="st12" width="48.2" height="55.5"/>
-			<rect x="3186" y="582.5" class="st10" width="13.4" height="55.5"/>
-			<rect x="3025.4" y="582.5" class="st13" width="160.6" height="55.5"/>
-			<rect x="2886.2" y="582.5" class="st14" width="139.2" height="55.5"/>
-			<rect x="3199.4" y="499.2" class="st10" width="13.4" height="55.5"/>
-			<rect x="3212.8" y="499.2" class="st11" width="149.9" height="55.5"/>
-			<rect x="3362.7" y="499.2" class="st12" width="42.8" height="55.5"/>
-			<rect x="3186" y="499.2" class="st10" width="13.4" height="55.5"/>
-			<rect x="3004" y="499.2" class="st13" width="182" height="55.5"/>
-			<rect x="2923.7" y="499.2" class="st14" width="80.3" height="55.5"/>
-			<rect x="3199.4" y="416" class="st10" width="2.7" height="55.5"/>
-			<rect x="3202.1" y="416" class="st11" width="144.6" height="55.5"/>
-			<rect x="3346.6" y="416" class="st12" width="80.3" height="55.5"/>
-			<rect x="3196.7" y="416" class="st10" width="2.7" height="55.5"/>
-			<rect x="3057.5" y="416" class="st13" width="139.2" height="55.5"/>
-			<rect x="2945.1" y="416" class="st14" width="112.4" height="55.5"/>
-			<rect x="3199.4" y="332.7" class="st10" width="10.7" height="55.5"/>
-			<rect x="3210.1" y="332.7" class="st11" width="171.3" height="55.5"/>
-			<rect x="3381.4" y="332.7" class="st12" width="128.5" height="55.5"/>
-			<rect x="3188.7" y="332.7" class="st10" width="10.7" height="55.5"/>
-			<rect x="3049.5" y="332.7" class="st13" width="139.2" height="55.5"/>
-			<rect x="3028.1" y="332.7" class="st14" width="21.4" height="55.5"/>
-			<rect x="3199.4" y="249.5" class="st10" width="8" height="55.5"/>
-			<rect x="3207.4" y="249.5" class="st11" width="192.8" height="55.5"/>
-			<rect x="3400.2" y="249.5" class="st12" width="139.2" height="55.5"/>
-			<rect x="3191.4" y="249.5" class="st10" width="8" height="55.5"/>
-			<rect x="3105.7" y="249.5" class="st13" width="85.7" height="55.5"/>
-			<rect x="3057.5" y="249.5" class="st14" width="48.2" height="55.5"/>
-			<rect x="3199.4" y="166.2" class="st11" width="91" height="55.5"/>
-			<rect x="3290.4" y="166.2" class="st12" width="251.6" height="55.5"/>
-			<rect x="3076.3" y="166.2" class="st13" width="123.1" height="55.5"/>
-			<rect x="3060.2" y="166.2" class="st14" width="16.1" height="55.5"/>
-			<rect x="3199.4" y="83" class="st10" width="2.7" height="55.5"/>
-			<rect x="3202.1" y="83" class="st11" width="160.6" height="55.5"/>
-			<rect x="3362.7" y="83" class="st12" width="182" height="55.5"/>
-			<rect x="3196.7" y="83" class="st10" width="2.7" height="55.5"/>
-			<rect x="3084.3" y="83" class="st13" width="112.4" height="55.5"/>
-			<rect x="3062.9" y="83" class="st14" width="21.4" height="55.5"/>
-		</g>
-	</g>
+<g clip-path='url(#cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA==)'>
+<line x1='2717.55' y1='60.78' x2='2717.55' y2='55.11' style='stroke-width: 0.75;' />
+<line x1='2958.48' y1='60.78' x2='2958.48' y2='55.11' style='stroke-width: 0.75;' />
+<line x1='3199.41' y1='60.78' x2='3199.41' y2='55.11' style='stroke-width: 0.75;' />
+<line x1='3440.35' y1='60.78' x2='3440.35' y2='55.11' style='stroke-width: 0.75;' />
+<text x='2709.42' y='1455.65' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1847.11px' lengthAdjust='spacingAndGlyphs'>Que un resultado no fuera estadísticamente significativo sería un criterio para no seguir investigando esas variables</text>
+<text x='2709.42' y='1372.40' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1931.19px' lengthAdjust='spacingAndGlyphs'>No es necesario replicar un estudio cuando ya se detectaron efectos estadísticamente significativos en el estudio original</text>
+<text x='2709.42' y='1289.15' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2239.48px' lengthAdjust='spacingAndGlyphs'>Los estudios de replicación solamente tienen sentido cuando no se detectan diferencias estadísticamente significativas en el estudio original</text>
+<text x='2709.42' y='1205.90' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2305.50px' lengthAdjust='spacingAndGlyphs'>Creo que, en general, los errores que se pueden haber cometido en un estudio científico siempre se detectan y corrigen antes de ser publicados</text>
+<text x='2709.42' y='1122.65' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2691.75px' lengthAdjust='spacingAndGlyphs'>Si los resultados sobre una determinada temática son unánimes por parte de diferentes equipos de investigación entonces los estudios de replicación no son necesarios</text>
+<text x='2709.42' y='1039.39' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2043.41px' lengthAdjust='spacingAndGlyphs'>La ciencia avanza más con estudios que plantean hipótesis novedosas que con estudios de replicación de otras investigaciones</text>
+<text x='2709.42' y='956.14' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1285.78px' lengthAdjust='spacingAndGlyphs'>El valor de p &lt; .05 confirma que el hallazgo será útil para la comunidad científica</text>
+<text x='2709.42' y='872.89' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2651.46px' lengthAdjust='spacingAndGlyphs'>Las tareas de revisión y corrección de los manuscritos que llevan a cabo los revisores de las revistas garantizan de forma fiable la calidad de los resultados científicos</text>
+<text x='2709.42' y='789.64' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1111.75px' lengthAdjust='spacingAndGlyphs'>El valor de p = .001 confirma que el tamaño del efecto ha sido grande</text>
+<text x='2709.42' y='706.39' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1965.23px' lengthAdjust='spacingAndGlyphs'>Cuando leo un artículo tengo mayor confianza en la calidad del estudio si los resultados son estadísticamente significativos</text>
+<text x='2709.42' y='623.13' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2403.35px' lengthAdjust='spacingAndGlyphs'>Una conclusión científica (por ejemplo, si un tratamiento es mejor que otro) debe estar basado en si el p-valor es o no es estadísticamente significativo</text>
+<text x='2709.42' y='539.88' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1118.64px' lengthAdjust='spacingAndGlyphs'>Un resultado estadísticamente significativo es un resultado importante</text>
+<text x='2709.42' y='456.63' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1250.72px' lengthAdjust='spacingAndGlyphs'>El principal objetivo de las revistas científicas es publicar hallazgos novedosos</text>
+<text x='2709.42' y='373.38' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2009.28px' lengthAdjust='spacingAndGlyphs'>Gran parte de los investigadores solamente publica los estudios en donde obtienen diferencias estadísticamente significativas</text>
+<text x='2709.42' y='290.13' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1622.90px' lengthAdjust='spacingAndGlyphs'>A las revistas científicas no les interesa publicar resultados que no son estadísticamente significativos</text>
+<text x='2709.42' y='206.87' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='1318.88px' lengthAdjust='spacingAndGlyphs'>La realización de estudios de replicación es necesaria para el avance de la ciencia</text>
+<text x='2709.42' y='123.62' text-anchor='end' style='font-size: 36.00px; font-family: Arial;' textLength='2565.53px' lengthAdjust='spacingAndGlyphs'>Cuando los resultados de diferentes investigadores son contradictorios entonces sería necesario llevar a cabo un estudio de replicación sobre la misma temática</text>
+<line x1='2717.55' y1='1492.72' x2='2717.55' y2='1498.39' style='stroke-width: 0.75;' />
+<line x1='2958.48' y1='1492.72' x2='2958.48' y2='1498.39' style='stroke-width: 0.75;' />
+<line x1='3199.41' y1='1492.72' x2='3199.41' y2='1498.39' style='stroke-width: 0.75;' />
+<line x1='3440.35' y1='1492.72' x2='3440.35' y2='1498.39' style='stroke-width: 0.75;' />
+<text x='2717.55' y='1529.83' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='60.07px' lengthAdjust='spacingAndGlyphs'>100</text>
+<text x='2958.48' y='1529.83' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='40.05px' lengthAdjust='spacingAndGlyphs'>50</text>
+<text x='3199.41' y='1529.83' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='20.02px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='3440.35' y='1529.83' text-anchor='middle' style='font-size: 36.00px; font-family: Arial;' textLength='40.05px' lengthAdjust='spacingAndGlyphs'>50</text>
 </g>
-<rect x="2771.3" y="1610" class="st2" width="276.2" height="42.6"/>
-<rect x="2771.3" y="1705.2" class="st2" width="94.1" height="42.6"/>
-<rect x="3151.8" y="1607.5" class="st2" width="332.3" height="42.6"/>
-<rect x="3151.8" y="1655.1" class="st2" width="258.2" height="42.6"/>
-<g>
-	<g>
-		<text transform="matrix(1 0 0 1 3034.1355 1665.425)" class="st5 st4">No sé</text>
-		<rect x="3158.2" y="1638.3" class="st15" width="13.4" height="28.7"/>
-	</g>
-	<g>
-		<rect x="2984.5" y="1613.7" class="st16" width="13.4" height="28.7"/>
-		<text transform="matrix(1 0 0 1 2678.2522 1640.9092)" class="st5 st4">Nada de acuerdo</text>
-		<text transform="matrix(1 0 0 1 2678.2524 1688.4921)" class="st5 st4">Algo de acuerdo</text>
-		<rect x="2984.5" y="1661.3" class="st17" width="13.4" height="28.7"/>
-	</g>
-	<g>
-		<rect x="3570.1" y="1611.2" class="st18" width="13.4" height="28.7"/>
-		<text transform="matrix(1 0 0 1 3207.8567 1638.4089)" class="st5 st4">Bastante de acuerdo</text>
-		<text transform="matrix(1 0 0 1 3207.8567 1685.9918)" class="st5 st4">Muy de acuerdo</text>
-		<g>
-			<rect x="3570.1" y="1658.8" class="st19" width="13.4" height="28.7"/>
-		</g>
-	</g>
+<g clip-path='url(#cpMjcxNS4wOXwzNTc2LjY2fDYwLjc4fDE0OTIuNzI=)'>
+<line x1='3199.41' y1='1492.72' x2='3199.41' y2='60.78' style='stroke-width: 0.75; stroke: #A6A6A6;' />
+<rect x='3199.41' y='1415.02' width='13.39' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3212.80' y='1415.02' width='5.35' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3218.15' y='1415.02' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3186.03' y='1415.02' width='13.39' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3084.30' y='1415.02' width='101.73' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2747.00' y='1415.02' width='337.31' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='1331.76' width='37.48' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3236.89' y='1331.76' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3161.94' y='1331.76' width='37.48' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3108.40' y='1331.76' width='53.54' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2765.74' y='1331.76' width='342.66' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='1248.51' width='40.16' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3239.57' y='1248.51' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3159.26' y='1248.51' width='40.16' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3073.59' y='1248.51' width='85.66' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2768.41' y='1248.51' width='305.18' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='1165.26' width='16.06' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3215.48' y='1165.26' width='42.83' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3258.31' y='1165.26' width='5.35' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3183.35' y='1165.26' width='16.06' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3028.09' y='1165.26' width='155.27' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2781.80' y='1165.26' width='246.29' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='1082.01' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3210.12' y='1082.01' width='53.54' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3263.66' y='1082.01' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3188.71' y='1082.01' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3001.31' y='1082.01' width='187.39' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2792.51' y='1082.01' width='208.81' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='998.76' width='8.03' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3207.45' y='998.76' width='58.89' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3266.34' y='998.76' width='37.48' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3191.38' y='998.76' width='8.03' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3036.12' y='998.76' width='155.27' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2821.95' y='998.76' width='214.16' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='915.50' width='32.12' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3231.54' y='915.50' width='53.54' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3285.08' y='915.50' width='21.42' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3167.29' y='915.50' width='32.12' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='2985.25' y='915.50' width='182.04' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2824.63' y='915.50' width='160.62' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='832.25' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3210.12' y='832.25' width='85.66' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3295.79' y='832.25' width='21.42' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3188.71' y='832.25' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='2974.54' y='832.25' width='214.16' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2835.34' y='832.25' width='139.21' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='749.00' width='58.89' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3258.31' y='749.00' width='58.89' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3317.20' y='749.00' width='37.48' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3140.52' y='749.00' width='58.89' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3038.79' y='749.00' width='101.73' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2872.82' y='749.00' width='165.98' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='665.75' width='16.06' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3215.48' y='665.75' width='96.37' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3311.85' y='665.75' width='53.54' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3183.35' y='665.75' width='16.06' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3092.33' y='665.75' width='91.02' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2883.53' y='665.75' width='208.81' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='582.50' width='13.39' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3212.80' y='582.50' width='107.08' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3319.88' y='582.50' width='48.19' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3186.03' y='582.50' width='13.39' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3025.41' y='582.50' width='160.62' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2886.20' y='582.50' width='139.21' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='499.24' width='13.39' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3212.80' y='499.24' width='149.91' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3362.71' y='499.24' width='42.83' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3186.03' y='499.24' width='13.39' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3003.99' y='499.24' width='182.04' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2923.68' y='499.24' width='80.31' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='415.99' width='2.68' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3202.09' y='415.99' width='144.56' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3346.65' y='415.99' width='80.31' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3196.74' y='415.99' width='2.68' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3057.53' y='415.99' width='139.21' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='2945.10' y='415.99' width='112.44' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='332.74' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3210.12' y='332.74' width='171.33' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3381.45' y='332.74' width='128.50' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3188.71' y='332.74' width='10.71' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3049.50' y='332.74' width='139.21' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='3028.09' y='332.74' width='21.42' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='249.49' width='8.03' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3207.45' y='249.49' width='192.75' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3400.19' y='249.49' width='139.21' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3191.38' y='249.49' width='8.03' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3105.72' y='249.49' width='85.66' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='3057.53' y='249.49' width='48.19' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='166.24' width='91.02' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3290.43' y='166.24' width='251.64' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3076.27' y='166.24' width='123.14' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='3060.21' y='166.24' width='16.06' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
+<rect x='3199.41' y='82.98' width='2.68' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3202.09' y='82.98' width='160.62' height='55.50' style='stroke-width: 0.75; stroke: #A2ACE5; fill: #A2ACE5;' />
+<rect x='3362.71' y='82.98' width='182.04' height='55.50' style='stroke-width: 0.75; stroke: #768BE6; fill: #768BE6;' />
+<rect x='3196.74' y='82.98' width='2.68' height='55.50' style='stroke-width: 0.75; stroke: #E2E2E2; fill: #E2E2E2;' />
+<rect x='3084.30' y='82.98' width='112.44' height='55.50' style='stroke-width: 0.75; stroke: #E79AA9; fill: #E79AA9;' />
+<rect x='3062.89' y='82.98' width='21.42' height='55.50' style='stroke-width: 0.75; stroke: #E16A86; fill: #E16A86;' />
 </g>
-<rect class="st2" width="3600" height="1800"/>
-<rect x="2715.1" y="60.8" class="st7" width="861.6" height="1431.9"/>
-<rect x="2969.1" y="1567.3" class="st2" width="353.6" height="220.7"/>
+<g clip-path='url(#cpMC4wMHwzNjAwLjAwfDAuMDB8MTgwMC4wMA==)'>
+<rect x='2715.09' y='60.78' width='861.57' height='1431.93' style='stroke-width: 0.75;' />
+<rect x='2969.05' y='1567.28' width='353.65' height='220.72' style='stroke-width: 0.75; stroke: none;' />
+<text x='2971.05' y='1671.87' style='font-size: 36.00px; font-family: Arial;' textLength='276.22px' lengthAdjust='spacingAndGlyphs'>Nada de acuerdo</text>
+<text x='2971.05' y='1700.54' style='font-size: 36.00px; font-family: Arial;' textLength='262.21px' lengthAdjust='spacingAndGlyphs'>Algo de acuerdo</text>
+<text x='2971.05' y='1729.21' style='font-size: 36.00px; font-family: Arial;' textLength='94.05px' lengthAdjust='spacingAndGlyphs'>No sé</text>
+<text x='2971.05' y='1757.88' style='font-size: 36.00px; font-family: Arial;' textLength='332.26px' lengthAdjust='spacingAndGlyphs'>Bastante de acuerdo</text>
+<text x='2971.05' y='1786.55' style='font-size: 36.00px; font-family: Arial;' textLength='258.16px' lengthAdjust='spacingAndGlyphs'>Muy de acuerdo</text>
+<rect x='3307.35' y='1644.65' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #E16A86;' />
+<rect x='3307.35' y='1673.32' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #E79AA9;' />
+<rect x='3307.35' y='1701.99' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #E2E2E2;' />
+<rect x='3307.35' y='1730.66' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #A2ACE5;' />
+<rect x='3307.35' y='1759.33' width='13.35' height='28.67' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #768BE6;' />
+</g>
 </svg>
