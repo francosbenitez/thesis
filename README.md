@@ -2,7 +2,7 @@
 * Developed Python functions to manipulate and plot the dataset.
 * Created some R plots to visualize likert scale results. 
 
-## Code and Resourses Used
+## Code and Resources Used
 **Packages:** 
   - **Python:** pandas, matplotlib, statistics, re, wordcloud, seaborn 
   - **R:** HH, readr
