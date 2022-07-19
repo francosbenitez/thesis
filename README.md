@@ -3,12 +3,12 @@
 * Created some R plots to visualize likert scale results. 
 
 ## Code and Resources Used
-**Packages:** 
-  - **Python:** pandas, matplotlib, statistics, re, wordcloud, seaborn 
-  - **R:** HH, readr
+- **Packages:** 
+  - <ins>Python</ins>: pandas, matplotlib, statistics, re, wordcloud, seaborn 
+  - <ins>R</ins>: HH, readr
 
 ## Live Demo
-- [Website](https://francosbenitez.github.io/thesis/)
+- [Link](https://francosbenitez.github.io/thesis/)
 
 ## Download the Database
 * The data in CSV format can be found on [the website of the project](https://francosbenitez.github.io/thesis/).
